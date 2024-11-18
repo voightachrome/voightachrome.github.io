@@ -5,62 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samuel Osei</title>
     <style>
+        /* Reset and basic styling */
         html, body {
-            height: 100%; /* Ensure the page takes up the full viewport height */
-            margin: 0; /* Remove default margin */
+            height: 100%;
+            margin: 0;
             padding: 0;
-            overflow: hidden; /* Disable scrolling */
-            box-sizing: border-box; /* Prevent layout issues */
+            overflow: hidden;
+            box-sizing: border-box;
         }
         body {
             font-family: 'Constantia', serif;
             background-color: #f5f5f5;
             color: #000;
             display: flex;
-            justify-content: center; /* Horizontally center content */
-            align-items: center; /* Vertically center content */
-            transform: scale(1.25); /* Scale everything by 125% */
+            justify-content: center;
+            align-items: center;
         }
+
+        /* Container for content */
         .container {
             display: flex;
+            flex-direction: column; /* Default to column layout for mobile */
             align-items: center;
-            gap: 25px; /* Space between the image and the content */
-            max-width: 80%; /* Prevent overly wide content */
+            gap: 20px;
+            text-align: center; /* Center align text for smaller screens */
+            max-width: 90%; /* Ensure proper spacing on smaller screens */
+            padding: 20px;
         }
+
+        /* Image styling */
         img {
-            width: 312.5px; /* Adjusted size for scaling */
+            width: 100%; /* Image scales to fit container */
+            max-width: 300px; /* Restrict maximum width */
             height: auto;
-            margin-left: -375px; /* Adjusted to keep positioning consistent */
         }
+
+        /* Content section */
         .content {
-            text-align: left;
+            text-align: center; /* Centered text for mobile */
         }
+
         h1 {
-            font-size: 2.5em; /* Bigger font size for header */
+            font-size: 2em; /* Adjust header size */
             font-weight: bold;
             font-style: italic;
-            margin: 0;
+            margin: 10px 0;
         }
+
         p {
-            margin: 15px 0;
-            font-size: 1.25em; /* Larger text for better visibility */
+            margin: 10px 0;
+            font-size: 1.1em; /* Slightly smaller font for better scaling */
         }
+
+        /* Links section */
         .links {
-            margin-top: 25px;
+            display: flex;
+            flex-wrap: wrap; /* Wrap links on small screens */
+            justify-content: center; /* Center links */
+            gap: 15px; /* Space between links */
+            margin-top: 15px;
         }
+
         .links a {
             color: #007BFF;
             text-decoration: none;
             border-bottom: 1px solid #007BFF;
             padding-bottom: 1.5px;
-            margin-right: 7px;
-            font-size: 1.25em; /* Increase link size */
+            font-size: 1.1em;
+            transition: color 0.3s ease, border-bottom-color 0.3s ease;
+        }
+
+        .links a:hover {
+            color: #0056b3; /* Darker blue on hover */
+            border-bottom-color: #0056b3;
+        }
+
+        /* Media query for larger screens */
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row; /* Side-by-side layout for larger screens */
+                text-align: left;
+            }
+
+            img {
+                margin-right: 25px; /* Add spacing between image and content */
+                max-width: 312.5px; /* Ensure consistent size scaling */
+            }
+
+            h1 {
+                font-size: 2.5em; /* Larger font size for desktop */
+            }
+
+            p, .links a {
+                font-size: 1.25em; /* Larger font for better readability */
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="./Blog_Files/Websitephoto.jpg" alt="Image description">
+        <img src="./Blog_Files/Websitephoto.jpg" alt="Portrait of Samuel Osei">
         <div class="content">
             <h1>Samuel Osei</h1>
             <p>
