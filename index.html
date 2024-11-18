@@ -6,6 +6,11 @@
     <title>Samuel Osei</title>
     <style>
         /* Reset and basic styling */
+        @font-face {
+            font-family: 'Constantia';
+            src: local('Constantia'), local('Georgia'), serif; /* Fall back to Georgia if Constantia is unavailable */
+        }
+
         html, body {
             height: 100%;
             margin: 0;
@@ -13,13 +18,16 @@
             overflow: hidden;
             box-sizing: border-box;
         }
+
         body {
-            font-family: 'Constantia', serif;
+            font-family: 'Constantia', Georgia, serif; /* Primary font with fallbacks */
             background-color: #f5f5f5;
             color: #000;
             display: flex;
             justify-content: center;
             align-items: center;
+            transform: scale(1.25); /* Scale everything by 125% */
+            transform-origin: center; /* Scale from the center */
         }
 
         /* Container for content */
@@ -42,7 +50,7 @@
 
         /* Content section */
         .content {
-            text-align: center; /* Centered text for mobile */
+            text-align: center;
         }
 
         h1 {
