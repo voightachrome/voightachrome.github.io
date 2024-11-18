@@ -26,8 +26,15 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            transform: scale(1.25); /* Scale everything by 125% */
-            transform-origin: center; /* Scale from the center */
+            transform: scale(1); /* Default scaling for mobile */
+            transform-origin: center; /* Scaling will center correctly */
+        }
+
+        /* Apply 125% scaling on desktops */
+        @media (min-width: 768px) {
+            body {
+                transform: scale(1.25);
+            }
         }
 
         /* Container for content */
@@ -123,9 +130,9 @@
                 </i>
             </p>
             <div class="links">
-                <a href="" target="_blank">about</a> //
-                <a href="" target="_blank">blog</a> //
-                <a href="" target="_blank">contact</a> //
+                <a href="about.html">about</a> //
+                <a href="blog.html">blog</a> //
+                <a href="contact.html">contact</a> //
                 <a href="https://drive.google.com/file/d/1ROg_GzBEhUpd-qdtbTd82YedBMdIYRgN/view?usp=sharing" target="_blank">resume</a> //
                 <a href="https://www.instagram.com/voightachrome/" target="_blank">photos</a>
             </div>
