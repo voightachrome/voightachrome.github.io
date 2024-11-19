@@ -15,7 +15,11 @@
       align-items: center;
       min-height: 100vh;
       background-color: #f9f9f9;
-      overflow: hidden; /* Disable scrolling */
+    }
+
+    /* Allow scrolling */
+    html, body {
+      overflow: auto; /* Enable scrolling */
     }
 
     /* Main container styles */
@@ -27,6 +31,7 @@
       gap: 40px;
       max-width: 90%; /* Ensure it fits within the viewport */
       flex-wrap: wrap; /* Allows wrapping for smaller screens */
+      padding: 20px;
     }
 
     /* Blog list container */
@@ -99,8 +104,14 @@
         gap: 20px; /* Reduce gap */
       }
 
+      .image-container {
+        display: flex;
+        justify-content: center; /* Center the image */
+        width: 100%; /* Ensure the image container spans full width */
+      }
+
       img {
-        max-width: 80%; /* Allow the image to resize on smaller screens */
+        max-width: 60%; /* Reduce image size */
       }
 
       .content-layout ul a {
@@ -137,4 +148,3 @@
   </footer>
 </body>
 </html>
-
