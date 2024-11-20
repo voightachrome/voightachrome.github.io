@@ -15,8 +15,6 @@
       align-items: center;
       height: 100vh; /* Full height of viewport */
       background-color: #f9f9f9;
-      transform: scale(1); /* Scale content by 110% */
-      transform-origin: center; /* Center scaling */
     }
 
     /* Allow scrolling on mobile only */
@@ -54,7 +52,10 @@
     .content-layout p {
       margin: 5px 0;
       font-size: 1.4rem;
-      font-weight: bold; /* Makes text bold */
+    }
+
+    .content-layout span {
+      font-weight: bold; /* Bold styling for the span elements */
     }
 
     /* Image styling with drop shadow and rounded corners */
@@ -64,14 +65,6 @@
       height: auto;
       border-radius: 10px; /* Rounded corners */
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Drop shadow */
-    }
-
-    /* FAQ Header styling */
-    .faq-header {
-      font-size: 2rem;
-      font-weight: bold;
-      text-align: center;
-      margin-bottom: 20px;
     }
 
     /* Footer styling */
@@ -88,7 +81,6 @@
     footer a {
       text-decoration: none;
       color: #0077cc;
-      font-weight: bold; /* Makes footer link bold */
     }
 
     footer a:hover {
@@ -119,7 +111,6 @@
 
       .content-layout p {
         font-size: 1.2rem; /* Adjust font size for smaller screens */
-        font-weight: bold; /* Ensures text is bold on mobile as well */
       }
 
       footer {
@@ -130,8 +121,6 @@
 </head>
 <body>
   <div class="container">
-    <!-- FAQ Header -->
-
     <!-- Image -->
     <div class="image-container">
       <img src="./Blog_Files/Websitephoto3.jpg" alt="Portrait of Samuel Osei">
@@ -139,14 +128,14 @@
 
     <!-- Personal Information -->
     <div class="content-layout">
-      <p>FAQ</p>
-      <p>age: 18</p>
-      <p>dob:10/02/2006</p>
-      <p>where are you from?: Toronto born and raised</p>
-      <p>what is your major?: Philosophy</p>
-      <p>height: 6’0</p>
-      <p>mbti: INTP</p>
-      <p>hobbies: Photography, reading/manga, badminton, ultimate frisbee, philosophy</p>
+      <p><span>FAQ</span></p>
+      <p><span>age:</span> 18</p>
+      <p><span>dob:</span> 10/02/2006</p>
+      <p><span>where are you from?:</span> Toronto born and raised</p>
+      <p><span>what is your major?:</span> Philosophy</p>
+      <p><span>height:</span> 6’0</p>
+      <p><span>mbti:</span> INTP</p>
+      <p><span>hobbies:</span> Photography, reading/manga, badminton, ultimate frisbee, philosophy</p>
     </div>
   </div>
 
@@ -155,3 +144,4 @@
   </footer>
 </body>
 </html>
+
