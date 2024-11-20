@@ -46,8 +46,18 @@
             text-align: center; /* Center align text for smaller screens */
             max-width: 90%; /* Ensure proper spacing on smaller screens */
             padding: 20px;
+            opacity: 0; /* Start hidden */
+            animation: fadeIn 2.5s ease-out forwards; /* Fade-in animation */
         }
-
+        /* Keyframes for fade-in animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
         /* Image styling with drop shadow and rounded corners */
         img {
             width: 100%; /* Image scales to fit container */
