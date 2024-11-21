@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1.0, initial-scale=1.0">
+    <title>Welcome! - Home Page</title>
+    <style>
+        /* Reset and basic styling */
+        @font-face {
+            font-family: 'Constantia';
+            src: local('Constantia'), local('Georgia'), serif; /* Fall back to Georgia if Constantia is unavailable */
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Constantia', Georgia, serif; /* Primary font with fallbacks */
+            background-color: #f5f5f5;
+            color: #000;
+            display: flex;
+            flex-direction: column; /* Ensure the layout is column-based */
+            justify-content: center; /* Center content vertically */
+            align-items: center;
+            transform: scale(1); /* Keep scaling to 100% */
+            transform-origin: center; /* Scaling will center correctly */
+            overflow: auto;
+            padding-bottom: 60px; /* Ensure footer is not covered by content */
+        }
+
+        /* Container for content */
+        .container {
+            display: flex;
+            flex-direction: column; /* Default to column layout for mobile */
+            align-items: center;
+            gap: 20px;
+            text-align: center; /* Center align text for smaller screens */
+            max-width: 90%; /* Ensure proper spacing on smaller screens */
+            padding: 20px;
+            max-height: 100%; /* Ensure content doesn't overflow vertically */
+            overflow-y: auto; /* Allow vertical scroll if necessary */
+            opacity: 0; /* Start hidden */
+            animation: fadeIn 2.5s ease-out forwards; /* Fade-in animation */
+        }
+
+        /* Keyframes for fade-in animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Image styling with drop shadow and rounded corners */
+        img {
+            width: 100%; /* Image scales to fit container */
+            max-width: 500px; /* Larger image size on mobile */
+            height: auto;
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Drop shadow */
+        }
+
+        /* Content section */
+        .content {
+            text-align: center;
+        }
+
+        p {
+            margin: 50px 0;
+            font-size: 1.1em; /* Slightly smaller font for better scaling */
+            line-height: 1.5; /* Ensure line spacing for readability */
+        }
+
+        /* Footer styling */
+        footer {
+            font-size: 1rem;
+            width: 100%;
+            text-align: center;
+            background-color: #f5f5f5;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #0077cc;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Media query for larger screens */
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row; /* Side-by-side layout for larger screens */
+                text-align: left;
+            }
+
+            img {
+                margin-right: 25px; /* Add spacing between image and content */
+                max-width: 520px; /* Larger image on desktop */
+            }
+
+            p {
+                font-size: 1.25em; /* Larger font for better readability */
+                max-width: 600px; /* Limit paragraph width to prevent text from being too wide */
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./Blog_Files/Websitephoto4.jpg" alt="Portrait of Samuel Osei">
+        <div class="content">
+            <p>Hi! I'm Samuel. I'm a first-year philosophy student at York University with aspirations to pursue a career in law. This page is a creative space where I write about the things that inspire, challenge, or capture my attention. My interests range from philosophy and politics, to tech, digital minimalism, and productivity. I'm also passionate about photography. I plan to analyze the work of different photographers to understand what makes their photos unique. Urban planning and transit captivate me, too; I'm curious about what we can do to improve our cities (specifically Toronto).</p>
+
+            <p>This website is a reflection of all these passions and more—it's where I hope to share ideas, connect with others, and learn. So stay tuned.</p>
+
+            <p>(All the images you see scattered around the website were taken by me :)</p>
+        </div>
+    </div>
+    <footer>
+        <a href="index.html">Home</a>
+    </footer>
+</body>
+</html>
+
