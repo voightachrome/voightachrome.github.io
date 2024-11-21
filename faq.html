@@ -38,7 +38,18 @@
       max-width: 90%; /* Ensure it fits within the viewport */
       flex-wrap: wrap; /* Allows wrapping for smaller screens */
       padding: 20px;
-    }
+      opacity: 0; /* Start hidden */
+      animation: fadeIn 2.5s ease-out forwards; /* Fade-in animation */
+        }
+        /* Keyframes for fade-in animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
 
     /* Content layout */
     .content-layout {
@@ -46,8 +57,7 @@
       flex-direction: column;
       align-items: flex-start;
       text-align: left;
-    }
-
+      }
     /* Text styling */
     .content-layout p {
       margin: 5px 0;
@@ -61,7 +71,7 @@
     /* Image styling with drop shadow and rounded corners */
     img {
       width: 100%;
-      max-width: 400px;
+      max-width: 450px;
       height: auto;
       border-radius: 10px; /* Rounded corners */
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Drop shadow */
@@ -92,7 +102,18 @@
       .container {
         flex-direction: column; /* Stack items vertically */
         gap: 10px; /* Reduce gap */
-      }
+         opacity: 0; /* Start hidden */
+         animation: fadeIn 2.5s ease-out forwards; /* Fade-in animation */
+        }
+        /* Keyframes for fade-in animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
 
       .image-container {
         display: flex;
@@ -131,11 +152,16 @@
       <p><span>FAQ</span></p>
       <p><span>age:</span> 18</p>
       <p><span>dob:</span> 10/02/2006</p>
-      <p><span>where are you from?:</span> Toronto born and raised</p>
-      <p><span>what is your major?:</span> Philosophy</p>
+      <p><span>where are you from?:</span> toronto</p>
+      <p><span>what is your major?:</span> philosophy</p>
       <p><span>height:</span> 6’0</p>
       <p><span>mbti:</span> INTP</p>
-      <p><span>hobbies:</span> Photography, reading/manga, badminton, ultimate frisbee, philosophy</p>
+      <p><span>favourite book?:</span> pachinko by min jin lee</p>
+      <p><span>favourite artist? (right now):</span> nujabes</p>
+      <p><span>favourite manga? (right now):</span> vagabond</p>
+      <p><span>hobbies:</span> photography, reading/manga, badminton, ultimate frisbee, philosophy, urban planning/transit</p>
+    </div>
+    </div>
     </div>
   </div>
 
@@ -144,4 +170,3 @@
   </footer>
 </body>
 </html>
-
