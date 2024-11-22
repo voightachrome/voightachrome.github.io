@@ -32,7 +32,18 @@
       max-width: 90%; /* Ensure it fits within the viewport */
       flex-wrap: wrap; /* Allows wrapping for smaller screens */
       padding: 20px;
-    }
+      opacity: 0; /* Start hidden */
+      animation: fadeIn 1s ease-out forwards; /* Fade-in animation */
+        }
+        /* Keyframes for fade-in animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
 
     /* Blog list container */
     .content-layout {
