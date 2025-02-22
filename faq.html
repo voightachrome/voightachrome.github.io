@@ -11,81 +11,60 @@
       margin: 0;
       padding: 0;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh; /* Full height of viewport */
+      flex-direction: column;
+      min-height: 100vh;
       background-color: #f9f9f9;
+      overflow-y: auto;
     }
 
-    /* Allow scrolling on mobile only */
-    html, body {
-      overflow: auto; /* Enable scrolling */
-    }
-
-    @media (min-width: 768px) {
-      html, body {
-        overflow: hidden; /* Disable scrolling on desktop */
-      }
-    }
-
-    /* Main container styles */
     .container {
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: center;
       gap: 40px;
-      max-width: 90%; /* Ensure it fits within the viewport */
-      flex-wrap: wrap; /* Allows wrapping for smaller screens */
+      max-width: 90%;
       padding: 20px;
-      opacity: 0; /* Start hidden */
-      animation: fadeIn 1s ease-out forwards; /* Fade-in animation */
-        }
-        /* Keyframes for fade-in animation */
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
+      margin: 40px auto;
+      opacity: 0;
+      animation: fadeIn 1s ease-out forwards;
+      flex: 1;
+    }
 
-    /* Content layout */
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
     .content-layout {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      text-align: left;
-      }
-    /* Text styling */
+    }
+
     .content-layout p {
       margin: 5px 0;
       font-size: 1.4rem;
     }
 
     .content-layout span {
-      font-weight: bold; /* Bold styling for the span elements */
+      font-weight: bold;
     }
 
-    /* Image styling with drop shadow and rounded corners */
     img {
       width: 100%;
       max-width: 450px;
       height: auto;
-      border-radius: 10px; /* Rounded corners */
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Drop shadow */
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
 
-    /* Footer styling */
     footer {
-      position: fixed;
-      bottom: 0;
-      font-size: 1rem;
       width: 100%;
       text-align: center;
       background-color: #f9f9f9;
       padding: 10px 0;
+      margin-top: auto;
     }
 
     footer a {
@@ -97,71 +76,60 @@
       text-decoration: underline;
     }
 
-    /* Responsive styles for mobile */
-    @media (max-width: 768px) {
+    /* Medium screens */
+    @media (max-width: 1024px) {
       .container {
-        flex-direction: column; /* Stack items vertically */
-        gap: 10px; /* Reduce gap */
-         opacity: 0; /* Start hidden */
-         animation: fadeIn 2.5s ease-out forwards; /* Fade-in animation */
-        }
-        /* Keyframes for fade-in animation */
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-
-      .image-container {
-        display: flex;
-        justify-content: center; /* Center the image */
-        width: 100%; /* Ensure the image container spans full width */
-      }
-
-      img {
-        max-width: 90%; /* Increase image size on mobile */
+        flex-direction: column;
+        text-align: center;
       }
 
       .content-layout {
-        align-items: center; /* Center-aligns content horizontally on mobile */
-        text-align: center; /* Center-aligns text content on mobile */
+        align-items: center;
+        width: 100%;
       }
 
       .content-layout p {
-        font-size: 1.2rem; /* Adjust font size for smaller screens */
+        text-align: center;
+        width: 100%;
+      }
+    }
+
+    /* Mobile screens */
+    @media (max-width: 767px) {
+      .container {
+        gap: 10px;
+        margin: 20px auto;
+        animation-duration: 2.5s;
       }
 
-      footer {
-        font-size: 1rem; /* Keep footer readable on smaller screens */
+      img {
+        max-width: 90%;
+      }
+
+      .content-layout p {
+        font-size: 1.2rem;
       }
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <!-- Image -->
     <div class="image-container">
       <img src="./index_Files/Websitephoto3.jpg" alt="Portrait of Samuel Osei">
     </div>
 
-    <!-- Personal Information -->
     <div class="content-layout">
       <p><span>FAQ</span></p>
       <p><span>age:</span> 18</p>
       <p><span>dob:</span> 10/02/2006</p>
       <p><span>where are you from?:</span> toronto</p>
       <p><span>what is your major?:</span> philosophy</p>
-      <p><span>height:</span> 6’0</p>
+      <p><span>height:</span> 6'0</p>
       <p><span>mbti:</span> INTP</p>
       <p><span>favourite book?:</span> pachinko by min jin lee</p>
       <p><span>favourite artist? (right now):</span> nujabes</p>
       <p><span>favourite manga? (right now):</span> vagabond</p>
       <p><span>hobbies:</span> photography, reading/manga, badminton, ultimate frisbee, philosophy, urban planning/transit</p>
-    </div>
-    </div>
     </div>
   </div>
 
