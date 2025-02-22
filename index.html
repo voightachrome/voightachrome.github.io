@@ -14,10 +14,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome! - Home Page</title>
     <style>
-        /* Reset and basic styling */
+    
         @font-face {
             font-family: 'Constantia';
-            src: local('Constantia'), local('Georgia'), serif; /* Fall back to Georgia if Constantia is unavailable */
+            src: local('Constantia'), local('Georgia'), serif; /
         }
 
         html, body {
@@ -29,34 +29,34 @@
         }
 
         body {
-            font-family: 'Constantia', Georgia, serif; /* Primary font with fallbacks */
+            font-family: 'Constantia', Georgia, serif; 
             background-color: #f5f5f5;
             color: #000;
             display: flex;
             justify-content: center;
             align-items: center;
-            transform: scale(1); /* Default scaling for mobile */
-            transform-origin: center; /* Scaling will center correctly */
+            transform: scale(1);
+            transform-origin: center; 
         }
 
-        /* Apply 125% scaling on desktops */
+    
         @media (min-width: 768px) {
             body {
                 transform: scale(1.25);
             }
         }
 
-        /* Container for content */
+       
         .container {
             display: flex;
-            flex-direction: column; /* Default to column layout for mobile */
+            flex-direction: column;
             align-items: center;
             gap: 20px;
-            text-align: center; /* Center align text for smaller screens */
-            max-width: 90%; /* Ensure proper spacing on smaller screens */
+            text-align: center; 
+            max-width: 90%; 
             padding: 20px;
-            opacity: 0; /* Start hidden */
-            animation: fadeIn 1.5s ease-out forwards; /* Fade-in animation */
+            opacity: 0; 
+            animation: fadeIn 1.5s ease-out forwards; 
         }
         /* Keyframes for fade-in animation */
         @keyframes fadeIn {
