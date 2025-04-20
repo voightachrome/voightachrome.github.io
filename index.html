@@ -15,20 +15,21 @@
     <title>Welcome! - Home Page</title>
     <style>
         /*==== Constantia ====*/
-    @font-face {
-      font-family: 'Constantia';
-      src: url('fonts/constantia.woff2') format('woff2'),
-           url('fonts/constantia.woff')  format('woff');
-      font-weight: normal;
-      font-style: normal;
-      font-display: swap;
-    }
+        @font-face {
+          font-family: 'Constantia';
+          src: url('fonts/constantia.woff2') format('woff2'),
+               url('fonts/constantia.woff')  format('woff');
+          font-weight: normal;
+          font-style: normal;
+          font-display: swap;
+        }
 
+        /* Disable all scrolling */
         html, body {
             height: 100%;
             margin: 0;
             padding: 0;
-            overflow: hidden;
+            overflow: hidden;      /* no scrollbars */
             box-sizing: border-box;
         }
 
@@ -43,7 +44,6 @@
             transform-origin: center;
         }
 
-        /* Keyframes for fade-in animation */
         @keyframes fadeIn {
             0% { opacity: 0; }
             100% { opacity: 1; }
@@ -98,7 +98,7 @@
             text-decoration: none;
             border-bottom: 1px solid #007BFF;
             padding-bottom: 1.5px;
-            font-size: 1.1em;
+            font-size: 1.25em;
             transition: color 0.3s ease, border-bottom-color 0.3s ease;
         }
 
