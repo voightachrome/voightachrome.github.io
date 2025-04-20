@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>The Myth of Productivity: Why We Should Be Inactive In a Constantly Active World</title>
-  <!-- Load backup serif fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
   <style>
-    /*==== Reset & Fade-in ====*/
+    /*==== Constantia ====*/
+    @font-face {
+      font-family: 'Constantia';
+      src: url('fonts/constantia.woff2') format('woff2'),
+           url('fonts/constantia.woff')  format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+  
+    /*==== Reset & Fade‑in ====*/
     *, *::before, *::after {
       margin: 0;
       padding: 0;
@@ -18,7 +27,7 @@
 
     /*==== Layout ====*/
     body {
-      font-family: Constantia, "Times New Roman", Lora, Tinos, serif;
+      font-family: 'Constantia', "Times New Roman", Tinos, serif;
       background: #fff;
       color: #333;
       line-height: 1.6;
@@ -34,14 +43,18 @@
 
     /*==== Header ====*/
     .header-wrapper { text-align: center; margin-bottom: 20px; }
-    .image-container img { width: 80%; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+    .image-container img {
+      width: 80%;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
     .header__title { font-size: 3rem; margin: 0.5em 0; }
     .header__subtitle { font-size: 1.6rem; margin-bottom: 0; }
 
     /*==== Divider ====*/
     .divider { border: none; border-top: 1px solid #ccc; margin: 20px 0; }
 
-    /*==== Article Body (Obsidian-like) ====*/
+    /*==== Article Body ====*/
     .article-body { font-size: 1.35rem; margin-bottom: 20px; }
     .article-body h1 { font-size: 2.2rem; margin: 1em 0 0.5em; }
     .article-body h2 { font-size: 1.8rem; margin: 1em 0 0.5em; }
@@ -73,7 +86,7 @@
     .article-body th, .article-body td {
       padding: 0.5em 1em; text-align: left;
     }
-    /* Apply same drop-shadow and corners to markdown images */
+    /* Drop-Shadow + Rounded Corners */
     .article-body img {
       max-width: 80% !important;
       display: block;
@@ -81,7 +94,9 @@
       border-radius: 15px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
-    .article-body img + p { font-size: 0.9rem; color: #555; margin-top: 0.2em; }
+    .article-body img + p {
+      font-size: 0.9rem; color: #555; margin-top: 0.2em;
+    }
     .article-body img.float-right {
       float: right; max-width: 30%; margin: 0 0 1em 1em;
     }
@@ -99,17 +114,21 @@
       border: none;
       display: flex;
       align-items: center;
-      font-family: Constantia, "Times New Roman", Lora, Tinos, serif;
+      font-family: 'Constantia', "Times New Roman", Tinos, serif;
       width: 100%;
       justify-content: flex-start;
     }
-    .comments__header span { font-family: Constantia, "Times New Roman", Lora, Tinos, serif; }
+    .comments__header span {
+      font-family: 'Constantia', "Times New Roman", Tinos, serif;
+    }
     .comments__arrow {
       transition: transform 0.3s ease;
       font-size: 1.5rem;
       margin-left: auto;
     }
-    .comments--visible .comments__arrow { transform: rotate(90deg); }
+    .comments--visible .comments__arrow {
+      transform: rotate(90deg);
+    }
     .comments__list { list-style: none; padding: 0; display: none; }
     .comments--visible .comments__list { display: block; }
     .comment-item { padding: 15px 0; border-bottom: 1px solid #e0e0e0; }
@@ -118,8 +137,19 @@
     .body { margin-top: 10px; }
 
     /*==== Footer ====*/
-    .footer { text-align: center; font-size: 0.8rem; color: blue; padding: 20px 0; }
-    .home-button { margin-top: 10px; display: inline-block; font-size: 0.9rem; color: #0066CC; text-decoration: none; }
+    .footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: blue;
+      padding: 20px 0;
+    }
+    .home-button {
+      margin-top: 10px;
+      display: inline-block;
+      font-size: 0.9rem;
+      color: #0066CC;
+      text-decoration: none;
+    }
 
     /*==== Responsive ====*/
     @media (max-width: 768px) {
