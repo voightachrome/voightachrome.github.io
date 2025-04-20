@@ -1,120 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome! - Home Page</title>
-    <style>
-       /*==== Constantia ====*/
-        @font-face {
-          font-family: 'Constantia';
-          src: url('fonts/constantia.woff2') format('woff2'),
-               url('fonts/constantia.woff')  format('woff');
-          font-weight: normal;
-          font-style: normal;
-          font-display: swap;
-        }
-        
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            box-sizing: border-box;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome! - Home Page</title>
+  <style>
+    /*==== Constantia ====*/
+    @font-face {
+      font-family: 'Constantia';
+      src: url('fonts/constantia.woff2') format('woff2'),
+           url('fonts/constantia.woff')  format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
 
-        body {
-            font-family: 'Constantia', Georgia, serif;
-            background-color: #f5f5f5;
-            color: #000;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            transform: scale(1);
-            transform-origin: center;
-            overflow: auto;
-            padding-bottom: 60px;
-        }
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
 
-        /* Container for content */
-        .container {
-            display: flex;
-            flex-direction: column; /* always column */
-            align-items: center;
-            gap: 20px;
-            text-align: center;
-            max-width: 90%;
-            padding: 20px;
-            max-height: 100%;
-            overflow-y: auto;
-            opacity: 0;
-            animation: fadeIn 1s ease-out forwards;
-        }
+    body {
+      font-family: 'Constantia', Georgia, serif;
+      background-color: #f5f5f5;
+      color: #000;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: auto;
+      padding-bottom: 60px;
+    }
 
-        /* Keyframes for fade-in animation */
-        @keyframes fadeIn {
-            0% { opacity: 0; }
-            100% { opacity: 1; }
-        }
+    /* Container for content */
+    .container {
+      display: flex;
+      flex-direction: column; /* always column */
+      align-items: center;
+      gap: 20px;
+      text-align: center;
+      max-width: 90%;
+      padding: 20px;
+      max-height: 100%;
+      overflow-y: auto;
+      opacity: 0;
+      animation: fadeIn 1s ease-out forwards;
+    }
 
-        /* Image styling with drop shadow and rounded corners */
-        img {
-            width: 100%;
-            max-width: 500px;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        }
+    /* Keyframes for fade-in animation */
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
 
-        /* Content section */
-        .content {
-            text-align: center;
-        }
+    /* ensure column layout on desktop as well */
+    @media (min-width: 1024px) {
+      .container {
+        flex-direction: column !important;
+      }
+    }
 
-        .content p {
-            margin: 50px 0;
-            font-size: 1.1em;
-            line-height: 1.5;
-            max-width: 600px;
-        }
+    /* Image styling with drop shadow and rounded corners */
+    img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
 
-        /* Footer styling */
-        footer {
-            font-size: 1rem;
-            width: 100%;
-            text-align: center;
-            background-color: #f5f5f5;
-            padding: 10px 0;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-        }
+    /* Content section */
+    .content {
+      text-align: center;
+    }
 
-        footer a {
-            text-decoration: none;
-            color: #0077cc;
-        }
+    .content p {
+      margin: 50px 0;
+      font-size: 1.1em;
+      line-height: 1.5;
+      max-width: 600px;
+    }
 
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    /* Footer styling */
+    footer {
+      font-size: 1rem;
+      width: 100%;
+      text-align: center;
+      background-color: #f5f5f5;
+      padding: 10px 0;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: #0077cc;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <img src="./index_Files/Websitephoto4.jpg" alt="Portrait of Samuel Osei">
-        <div class="content">
-            <p>Hi! I’m Samuel. I’m a first-year philosophy student at York University with aspirations to pursue a career in law. This page is a creative space where I write about the things that inspire, challenge, or capture my attention. My interests range from philosophy and politics, to tech, digital minimalism, and productivity. I’m also passionate about photography. I plan to analyze the work of different photographers to understand what makes their photos unique. Urban planning and transit captivate me, too; I’m curious about what we can do to improve our cities (specifically Toronto).</p>
+  <div class="container">
+    <img src="./index_Files/Websitephoto4.jpg" alt="Portrait of Samuel Osei">
+    <div class="content">
+      <p>Hi! I’m Samuel. I’m a first-year philosophy student at York University with aspirations to pursue a career in law. This page is a creative space where I write about the things that inspire, challenge, or capture my attention. My interests range from philosophy and politics, to tech, digital minimalism, and productivity. I’m also passionate about photography. I plan to analyze the work of different photographers to understand what makes their photos unique. Urban planning and transit captivate me, too; I’m curious about what we can do to improve our cities (specifically Toronto).</p>
 
-            <p>This website is a reflection of all these passions and more—it’s where I hope to share ideas, connect with others, and learn. So stay tuned.</p>
+      <p>This website is a reflection of all these passions and more—it’s where I hope to share ideas, connect with others, and learn. So stay tuned.</p>
 
-            <p>(All the images you see scattered around the website were taken by me :)</p>
-        </div>
+      <p>(All the images you see scattered around the website were taken by me :)</p>
     </div>
-    <footer>
-        <a href="index.html">Home</a>
-    </footer>
+  </div>
+  <footer>
+    <a href="index.html">Home</a>
+  </footer>
 </body>
 </html>
