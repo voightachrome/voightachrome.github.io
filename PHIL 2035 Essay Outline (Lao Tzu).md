@@ -11,7 +11,7 @@
 Summarize and critically evaluate the Tao Te Ching’s views on values. Is Lao Tzu correct that our problems come from over-thinking? Is passivity always better than determined action?
 
 ![if you dont show up i might have to greg my doucette](https://github.com/user-attachments/assets/2b9f5123-f0dd-4c96-8388-265e38d08d73)
-Figure 1: A calm evening sky reflecting in the water.
+`Figure 1: A calm evening sky reflecting in the water.`
 
 ## Intro
 In "Tao Te Ching," Lao Tzu argues that we should act in accordance with the Tao (The Way) (Lao Tzu p.139). He argues that our virtues (Te) must follow the Tao (Lao Tzu p.150). Not acting in harmony with the Tao will lead to disorder and struggle (Lao Tzu p.166).
