@@ -2,22 +2,21 @@
 <html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HB1EXPV83K"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HB1EXPV83K"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-HB1EXPV83K');
+    </script>
 
-  gtag('config', 'G-HB1EXPV83K');
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome! - Home Page</title>
     <style>
-    
         @font-face {
             font-family: 'Constantia';
-            src: local('Constantia'), local('Georgia'), serif; /
+            src: local('Constantia'), local('Georgia'), serif;
         }
 
         html, body {
@@ -29,60 +28,48 @@
         }
 
         body {
-            font-family: 'Constantia', Georgia, serif; 
+            font-family: 'Constantia', Georgia, serif;
             background-color: #f5f5f5;
             color: #000;
             display: flex;
             justify-content: center;
             align-items: center;
             transform: scale(1);
-            transform-origin: center; 
+            transform-origin: center;
         }
 
-    
-        @media (min-width: 768px) {
-            body {
-                transform: scale(1.25);
-            }
+        /* Keyframes for fade-in animation */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
         }
 
-       
         .container {
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 20px;
-            text-align: center; 
-            max-width: 90%; 
+            text-align: center;
+            max-width: 90%;
             padding: 20px;
-            opacity: 0; 
-            animation: fadeIn 1.5s ease-out forwards; 
-        }
-        /* Keyframes for fade-in animation */
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-        /* Image styling with drop shadow and rounded corners */
-        img {
-            width: 100%; /* Image scales to fit container */
-            max-width: 300px; /* Restrict maximum width */
-            height: auto;
-            border-radius: 10px; /* Rounded corners */
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Drop shadow */
+            opacity: 0;
+            animation: fadeIn 1.5s ease-out forwards;
         }
 
-        /* Content section */
+        img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
         .content {
             text-align: center;
         }
 
         h1 {
-            font-size: 2em; /* Adjust header size */
+            font-size: 2em;
             font-weight: bold;
             font-style: italic;
             margin: 10px 0;
@@ -90,15 +77,14 @@
 
         p {
             margin: 10px 0;
-            font-size: 1.1em; /* Slightly smaller font for better scaling */
+            font-size: 1.1em;
         }
 
-        /* Links section */
         .links {
             display: flex;
-            flex-wrap: wrap; /* Wrap links on small screens */
-            justify-content: center; /* Center links */
-            gap: 15px; /* Space between links */
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
             margin-top: 15px;
         }
 
@@ -112,41 +98,76 @@
         }
 
         .links a:hover {
-            color: #0056b3; /* Darker blue on hover */
+            color: #0056b3;
             border-bottom-color: #0056b3;
         }
 
-        /* Media query for larger screens */
+        /* Scale body on tablet and up */
         @media (min-width: 768px) {
+            body {
+                transform: scale(1.25);
+            }
+        }
+
+        /* Tablet: force column layout (image on top) */
+        @media (min-width: 768px) and (max-width: 1023px) {
             .container {
-                flex-direction: row; /* Side-by-side layout for larger screens */
+                flex-direction: column;
+                text-align: center;
+            }
+
+            img {
+                margin: 0 0 20px;
+                max-width: 300px;
+            }
+
+            h1 {
+                font-size: 2.25em;
+            }
+
+            p,
+            .links a {
+                font-size: 1.2em;
+            }
+        }
+
+        /* Desktop: side-by-side layout with nowrap links */
+        @media (min-width: 1024px) {
+            .container {
+                flex-direction: row;
                 text-align: left;
             }
 
             img {
-                margin-right: 25px; /* Add spacing between image and content */
-                max-width: 312.5px; /* Ensure consistent size scaling */
+                margin-right: 25px;
+                max-width: 312.5px;
             }
 
             h1 {
-                font-size: 2.5em; /* Larger font size for desktop */
+                font-size: 2.5em;
             }
 
-            p, .links a {
-                font-size: 1.25em; /* Larger font for better readability */
+            p,
+            .links a {
+                font-size: 1.25em;
+            }
+
+            .links {
+                flex-wrap: nowrap;  /* keep all links in one line */
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="./index_Files/Websitephoto.jpg" alt="image">
+        <img src="./index_Files/Websitephoto.jpg" alt="Samuel Osei">
+
         <div class="content">
             <h1>Samuel Osei</h1>
             <p>
                 <i>
-                    <a href="https://24timezones.com/world_directory/current_toronto_time.php" target="_blank">Toronto Time</a> - 
-                    <span id="time">0:0:0 PM</span> 
+                    <a href="https://24timezones.com/world_directory/current_toronto_time.php" target="_blank">Toronto Time</a> –
+                    <span id="time">0:0:0 PM</span>
                     <a href="https://24timezones.com/time-zone/et" target="_blank">EST</a>
                 </i>
             </p>
@@ -171,5 +192,3 @@
     </script>
 </body>
 </html>
-
-
