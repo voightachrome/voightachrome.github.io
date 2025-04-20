@@ -1,4 +1,4 @@
-uuu[[Phil 2035 Essay Brainstorm (Lao Tzu)]]
+[[Phil 2035 Essay Brainstorm (Lao Tzu)]]
 ## The Format
 - Choose a Prompt
 	- Choose the parts of the argument that are relevant to the prompt. 
