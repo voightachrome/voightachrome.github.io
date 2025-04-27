@@ -16,7 +16,7 @@
       font-display: swap;
     }
   
-    /*==== Reset & Fade‑in ====*/
+    /*==== Reset & Fade-in ====*/
     *, *::before, *::after {
       margin: 0;
       padding: 0;
@@ -136,8 +136,20 @@
     .timestamp { font-size: 0.8rem; color: #666; margin-left: 10px; }
     .body { margin-top: 10px; }
 
-    /* —— New: style blockquotes inside comments —— */
-    .body blockquote {
+    /* Preserve raw newlines in comment text */
+    .comments__list .comment-item .body {
+      white-space: pre-wrap;
+    }
+
+    /* Limit comment images */
+    .comments__list .comment-item .body img {
+      max-width: 80%;
+      height: auto;
+    }
+
+    /* Blockquotes inside comments render normally */
+    .comments__list .comment-item .body blockquote {
+      white-space: normal;
       margin: 1em 0;
       padding: 0.5em 1em;
       border-left: 4px solid #ccc;
@@ -201,6 +213,9 @@
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
+    // Keep Marked defaults; we’re using CSS for line-breaks
+    marked.setOptions({ gfm: true });
+
     (function() {
       const RAW_MD_URL = 'https://raw.githubusercontent.com/voightachrome/voightachrome.github.io/main/PHIL%202035%20Essay%20Outline%20%28Lao%20Tzu%29.md';
       const COMMENTS_API = 'https://api.github.com/repos/voightachrome/voightachrome.github.io/issues/1/comments';
@@ -223,7 +238,7 @@
 
       async function loadComments() {
         try {
-          const res = await fetch(COMMENTS_API, { headers: { Accept: 'application/vnd.github.v3.html+json' } });
+          const res = await fetch(COMMENTS_API);
           const data = await res.json();
           const list = document.getElementById('comment-list');
           list.innerHTML = '';
