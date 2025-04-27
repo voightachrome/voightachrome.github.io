@@ -15,7 +15,6 @@
       font-style: normal;
       font-display: swap;
     }
-  
     /*==== Reset & Fade-in ====*/
     *, *::before, *::after {
       margin: 0;
@@ -26,28 +25,12 @@
     @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
     /*==== Layout ====*/
-    body {
-      font-family: 'Constantia', "Times New Roman", Tinos, serif;
-      background: #fff;
-      color: #333;
-      line-height: 1.6;
-      display: flex;
-      justify-content: center;
-      padding: 20px;
-      min-height: 100vh;
-    }
-    .container {
-      width: 100%;
-      max-width: 800px;
-    }
+    body { font-family: 'Constantia', "Times New Roman", Tinos, serif; background: #fff; color: #333; line-height: 1.6; display: flex; justify-content: center; padding: 20px; min-height: 100vh; }
+    .container { width: 100%; max-width: 800px; }
 
     /*==== Header ====*/
     .header-wrapper { text-align: center; margin-bottom: 20px; }
-    .image-container img {
-      width: 80%;
-      border-radius: 15px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
+    .image-container img { width: 80%; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
     .header__title { font-size: 3rem; margin: 0.5em 0; }
     .header__subtitle { font-size: 1.6rem; margin-bottom: 0; }
 
@@ -56,131 +39,42 @@
 
     /*==== Article Body ====*/
     .article-body { font-size: 1.35rem; margin-bottom: 20px; }
-    .article-body h1 { font-size: 2.2rem; margin: 1em 0 0.5em; }
-    .article-body h2 { font-size: 1.8rem; margin: 1em 0 0.5em; }
-    .article-body h3 { font-size: 1.4rem; margin: 1em 0 0.5em; }
+    .article-body h1, .article-body h2, .article-body h3 { margin: 1em 0 0.5em; }
     .article-body p { margin-bottom: 1em; }
-    .article-body blockquote {
-      margin: 1em 0; padding: 0.5em 1em;
-      border-left: 4px solid #ccc; background: #f9f9f9; color: #666;
-    }
-    .article-body code {
-      background: #f5f5f5; padding: 0.2em 0.4em;
-      border-radius: 4px; font-family: Consolas, "Courier New", monospace;
-    }
-    .article-body pre {
-      background: #282c34; color: #abb2bf;
-      padding: 1em; border-radius: 4px;
-      overflow-x: auto; margin: 1em 0;
-    }
-    .article-body ul,
-    .article-body ol {
-      padding-left: 1.5em; margin-bottom: 1em;
-    }
-    .article-body table {
-      width: 100%; border-collapse: collapse; margin-bottom: 1em;
-    }
-    .article-body table, .article-body th, .article-body td {
-      border: 1px solid #ddd;
-    }
-    .article-body th, .article-body td {
-      padding: 0.5em 1em; text-align: left;
-    }
-    /* Drop-Shadow + Rounded Corners */
-    .article-body img {
-      max-width: 80% !important;
-      display: block;
-      margin: 1em auto;
-      border-radius: 15px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-    .article-body img + p {
-      font-size: 0.9rem; color: #555; margin-top: 0.2em;
-    }
-    .article-body img.float-right {
-      float: right; max-width: 30%; margin: 0 0 1em 1em;
-    }
-    .article-body img.float-left {
-      float: left; max-width: 30%; margin: 0 1em 1em 0;
-    }
+    .article-body blockquote { margin: 1em 0; padding: 0.5em 1em; border-left: 4px solid #ccc; background: #f9f9f9; color: #666; }
+    .article-body code { background: #f5f5f5; padding: 0.2em 0.4em; border-radius: 4px; font-family: Consolas, "Courier New", monospace; }
+    .article-body pre { background: #282c34; color: #abb2bf; padding: 1em; border-radius: 4px; overflow-x: auto; margin: 1em 0; }
+    .article-body ul, .article-body ol { padding-left: 1.5em; margin-bottom: 1em; }
+    .article-body table { width: 100%; border-collapse: collapse; margin-bottom: 1em; }
+    .article-body th, .article-body td { border: 1px solid #ddd; padding: 0.5em 1em; text-align: left; }
+    .article-body img { max-width: 80% !important; display: block; margin: 1em auto; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+    .article-body img + p { font-size: 0.9rem; color: #555; margin-top: 0.2em; }
+    .article-body img.float-right { float: right; max-width: 30%; margin: 0 0 1em 1em; }
+    .article-body img.float-left { float: left; max-width: 30%; margin: 0 1em 1em 0; }
     .article-body::after { content: ''; display: table; clear: both; }
 
     /*==== Comments ====*/
-    .comments__header {
-      cursor: pointer;
-      font-size: 1.5rem;
-      margin-bottom: 15px;
-      background: none;
-      border: none;
-      display: flex;
-      align-items: center;
-      font-family: 'Constantia', "Times New Roman", Tinos, serif;
-      width: 100%;
-      justify-content: flex-start;
-    }
-    .comments__header span {
-      font-family: 'Constantia', "Times New Roman", Tinos, serif;
-    }
-    .comments__arrow {
-      transition: transform 0.3s ease;
-      font-size: 1.5rem;
-      margin-left: auto;
-    }
-    .comments--visible .comments__arrow {
-      transform: rotate(90deg);
-    }
+    .comments__header { cursor: pointer; font-size: 1.5rem; margin-bottom: 15px; background: none; border: none; display: flex; align-items: center; font-family: 'Constantia', serif; width: 100%; justify-content: flex-start; }
+    .comments__arrow { transition: transform 0.3s ease; font-size: 1.5rem; margin-left: auto; }
+    .comments--visible .comments__arrow { transform: rotate(90deg); }
     .comments__list { list-style: none; padding: 0; display: none; }
     .comments--visible .comments__list { display: block; }
     .comment-item { padding: 15px 0; border-bottom: 1px solid #e0e0e0; }
     .author { font-weight: bold; }
     .timestamp { font-size: 0.8rem; color: #666; margin-left: 10px; }
     .body { margin-top: 10px; }
-
-    /* Preserve raw newlines in comment text */
-    .comments__list .comment-item .body {
-      white-space: pre-wrap;
-    }
-
-    /* Limit comment images */
-    .comments__list .comment-item .body img {
-      max-width: 80%;
-      height: auto;
-    }
-
-    /* Blockquotes inside comments render normally */
-    .comments__list .comment-item .body blockquote {
-      white-space: normal;
-      margin: 1em 0;
-      padding: 0.5em 1em;
-      border-left: 4px solid #ccc;
-      background: #f9f9f9;
-      color: #666;
-    }
+    .body.preserve-newlines { white-space: pre-wrap; line-height: 1.2; }
+    .body.preserve-newlines br + br { line-height: 0.5; }
+    .body img { max-width: 80%; height: auto; }
+    .body blockquote { border-left: 4px solid #ccc; background: #f9f9f9; color: #666; margin: 1em 0; padding: 0.5em 1em; }
 
     /*==== Footer ====*/
-    .footer {
-      text-align: center;
-      font-size: 0.8rem;
-      color: blue;
-      padding: 20px 0;
-    }
-    .home-button {
-      margin-top: 10px;
-      display: inline-block;
-      font-size: 0.9rem;
-      color: #0066CC;
-      text-decoration: none;
-    }
+    .footer { text-align: center; font-size: 0.8rem; color: blue; padding: 20px 0; }
+    .home-button { margin-top: 10px; display: inline-block; font-size: 0.9rem; color: #0066CC; text-decoration: none; }
 
     /*==== Responsive ====*/
-    @media (max-width: 768px) {
-      .header__title { font-size: 2.5rem; }
-      .header__subtitle { font-size: 1.4rem; }
-    }
-    @media (max-width: 480px) {
-      .header__title { font-size: 2rem; }
-      .header__subtitle { font-size: 1.2rem; }
-    }
+    @media (max-width: 768px) { .header__title { font-size: 2.5rem; } .header__subtitle { font-size: 1.4rem; } }
+    @media (max-width: 480px) { .header__title { font-size: 2rem; } .header__subtitle { font-size: 1.2rem; } }
   </style>
 </head>
 <body>
@@ -198,10 +92,7 @@
     <hr class="divider">
 
     <section id="comments-section">
-      <button class="comments__header" id="toggle-comments">
-        <span>Comments</span>
-        <span class="comments__arrow">›</span>
-      </button>
+      <button class="comments__header" id="toggle-comments"><span>Comments</span><span class="comments__arrow">›</span></button>
       <ul class="comments__list" id="comment-list"></ul>
       <a id="github-issue-link" href="#" target="_blank">Go to GitHub</a> to add a comment
     </section>
@@ -213,9 +104,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
-    // Keep Marked defaults; we’re using CSS for line-breaks
     marked.setOptions({ gfm: true });
-
     (function() {
       const RAW_MD_URL = 'https://raw.githubusercontent.com/voightachrome/voightachrome.github.io/main/PHIL%202035%20Essay%20Outline%20%28Lao%20Tzu%29.md';
       const COMMENTS_API = 'https://api.github.com/repos/voightachrome/voightachrome.github.io/issues/1/comments';
@@ -243,11 +132,18 @@
           const list = document.getElementById('comment-list');
           list.innerHTML = '';
           data.forEach(c => {
-            const li = document.createElement('li');
-            li.className = 'comment-item';
+            const li = document.createElement('li'); li.className = 'comment-item';
             const date = new Date(c.created_at).toLocaleString();
-            const html = c.body_html || marked.parse(c.body);
-            li.innerHTML = `<span class="author"><img src="${c.user.avatar_url}" width="24" height="24"> ${c.user.login}</span> <span class="timestamp">${date}</span><div class="body">${html}</div>`;
+            const raw = c.body;
+            const html = marked.parse(raw);
+            const bodyDiv = document.createElement('div');
+            bodyDiv.className = 'body';
+            bodyDiv.innerHTML = html;
+            if (/\n\s*\n/.test(raw)) bodyDiv.classList.add('preserve-newlines');
+            const authorSpan = `<span class="author"><img src="${c.user.avatar_url}" width="24" height="24"> ${c.user.login}</span>`;
+            const timeSpan = `<span class="timestamp">${date}</span>`;
+            li.innerHTML = `${authorSpan} ${timeSpan}`;
+            li.appendChild(bodyDiv);
             list.appendChild(li);
           });
           document.getElementById('comment-count').textContent = data.length;
@@ -256,10 +152,7 @@
         }
       }
 
-      document.addEventListener('DOMContentLoaded', () => {
-        loadArticle();
-        loadComments();
-      });
+      document.addEventListener('DOMContentLoaded', () => { loadArticle(); loadComments(); });
     })();
   </script>
 </body>
