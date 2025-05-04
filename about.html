@@ -33,12 +33,19 @@
       align-items: center;
       overflow: auto;
       padding-bottom: 60px;
+
+      /* Hide scrollbar but keep scroll */
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;     /* Firefox */
     }
 
-    /* Container for content */
+    body::-webkit-scrollbar {
+      display: none;             /* Chrome, Safari */
+    }
+
     .container {
       display: flex;
-      flex-direction: column; /* always column */
+      flex-direction: column;
       align-items: center;
       gap: 20px;
       text-align: center;
@@ -48,6 +55,14 @@
       overflow-y: auto;
       opacity: 0;
       animation: fadeIn 1s ease-out forwards;
+
+      /* Hide scrollbar but keep scroll */
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .container::-webkit-scrollbar {
+      display: none;
     }
 
     /* Keyframes for fade-in animation */
