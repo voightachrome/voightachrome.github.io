@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <style>
+    /* Base styles */
+    body {
+      font-family: "Constantia", Georgia, serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f9f9f9;
+    }
+
+    /* Allow scrolling */
+    html, body {
+      overflow: auto; /* Enable scrolling */
+    }
+
+    /* Main container styles */
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      max-width: 90%; /* Ensure it fits within the viewport */
+      flex-wrap: wrap; /* Allows wrapping for smaller screens */
+      padding: 20px;
+      opacity: 0; /* Start hidden */
+      animation: fadeIn 1.5s ease-out forwards; /* match home page fade-in duration */
+    }
+
+    /* Keyframes for fade-in animation */
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+
+    /* List container */
+    .content-layout {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+    }
+
+    /* Blog list styling */
+    .content-layout ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .content-layout ul li {
+      margin-bottom: 10px;
+    }
+
+    .content-layout ul .date {
+      font-family: "Constantia", Georgia, serif; /* ensure Constantia */
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+    .content-layout ul a {
+      color: #007BFF;
+      text-decoration: none;
+      font-size: 1.1em; /* match home page link size */
+    }
+
+    .content-layout ul a:hover {
+      text-decoration: underline;
+    }
+
+    /* Image styling with drop shadow and rounded corners */
+    img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 10px; /* Rounded corners */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Drop shadow */
+    }
+
+    /* Footer styling */
+    footer {
+      position: fixed;
+      bottom: 0;
+      font-size: 1rem;
+      width: 100%;
+      text-align: center;
+      background-color: #f9f9f9;
+      padding: 10px 0;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: #0077cc;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive styles for mobile */
+    @media (max-width: 768px) {
+       .container {
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px; /* Reduce gap */
+      }
+
+      .image-container {
+        display: flex;
+        justify-content: center; /* Center the image */
+        width: 100%; /* Ensure the image container spans full width */
+      }
+
+      img {
+        max-width: 60%; /* Reduce image size */
+      }
+
+      .content-layout ul a {
+        font-size: 1.2rem; /* Increase font size for better readability */
+      }
+
+      footer {
+        font-size: 1rem; /* Keep footer readable on smaller screens */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Image -->
+    <div class="image-container">
+      <img src="rainbow.jpg" alt="Ferris Wheel">
+    </div>
+
+    <!-- Blog List -->
+    <div class="content-layout">
+      <ul>
+        <li><a href="reminiscence.html">Reminiscence</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <a href="index.html">Home</a>
+  </footer>
+</body>
+</html>
