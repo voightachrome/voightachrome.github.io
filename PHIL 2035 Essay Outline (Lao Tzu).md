@@ -11,7 +11,7 @@
 Summarize and critically evaluate the Tao Te Ching’s views on values. Is Lao Tzu correct that our problems come from over-thinking? Is passivity always better than determined action?
 
 ![if you dont show up i might have to greg my doucette](https://github.com/user-attachments/assets/2b9f5123-f0dd-4c96-8388-265e38d08d73)
-`Figure 1: A calm evening sky reflecting in the water.`
+`Source: Emin Özmen`
 
 ## Intro
 In "Tao Te Ching," Lao Tzu argues that we should act in accordance with the Tao (The Way) (Lao Tzu p.139). He argues that our virtues (Te) must follow the Tao (Lao Tzu p.150). Not acting in harmony with the Tao will lead to disorder and struggle (Lao Tzu p.166).
@@ -40,7 +40,7 @@ In "Tao Te Ching," Lao Tzu argues that we should act in accordance with the Tao 
 ### C: Therefore, if you abandon overthinking, you will be free from problems.
 
 ![image](https://github.com/user-attachments/assets/40f2b2fe-4d23-4653-b2e9-e64a2d81eb9f)
-
+`Source: Willem Verbeeck`
 ## Objection To Passivity
 - ### While there may be some cases where passivity is better than determined actions. This will not always be the case
 	 - A potential objection to this argument is to premise three. Imagine you are in a relationship, and your partner is not doing chores around the house. If what comes naturally to you is to be passive and go with the flow, then your partner will not know to change. However, if you take determined action and tell them how you feel about the situation, they will know to change. So, acting on what comes naturally is not always the best solution to some problems.
