@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
+    <!-- Google tag -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HB1EXPV83K"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome! - Home Page</title>
     <style>
-        /*==== Constantia ====*/
+        
         @font-face {
           font-family: 'Constantia';
           src: url('fonts/constantia.woff2') format('woff2'),
@@ -24,12 +24,11 @@
           font-display: swap;
         }
 
-        /* Disable all scrolling */
         html, body {
             height: 100%;
             margin: 0;
             padding: 0;
-            overflow: hidden;      /* no scrollbars */
+            overflow: hidden;     
             box-sizing: border-box;
         }
 
@@ -107,14 +106,14 @@
             border-bottom-color: #0056b3;
         }
 
-        /* Scale body on tablet and up */
+        
         @media (min-width: 768px) {
             body {
                 transform: scale(1.25);
             }
         }
 
-        /* Tablet: force column layout (image on top) */
+        
         @media (min-width: 768px) and (max-width: 1023px) {
             .container {
                 flex-direction: column;
@@ -136,7 +135,7 @@
             }
         }
 
-        /* Desktop: side-by-side layout with nowrap links */
+       
         @media (min-width: 1024px) {
             .container {
                 flex-direction: row;
@@ -158,7 +157,7 @@
             }
 
             .links {
-                flex-wrap: nowrap;  /* keep all links in one line */
+                flex-wrap: nowrap;  
             }
         }
     </style>
