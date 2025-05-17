@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog</title>
   <style>
-    /* Base styles */
+   
+    
     body {
       font-family: "Constantia", Georgia, serif;
       margin: 0;
@@ -16,33 +17,32 @@
       min-height: 100vh;
       background-color: #f9f9f9;
     }
-
-    /* Allow scrolling */
+    
     html, body {
-      overflow: auto; /* Enable scrolling */
+      overflow: auto; 
     }
 
-    /* Main container styles */
+    
     .container {
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: center;
       gap: 40px;
-      max-width: 90%; /* Ensure it fits within the viewport */
-      flex-wrap: wrap; /* Allows wrapping for smaller screens */
+      max-width: 90%; 
+      flex-wrap: wrap; 
       padding: 20px;
-      opacity: 0; /* Start hidden */
-      animation: fadeIn 1.5s ease-out forwards; /* match home page fade-in duration */
+      opacity: 0; 
+      animation: fadeIn 1.5s ease-out forwards; 
     }
 
-    /* Keyframes for fade-in animation */
+    
     @keyframes fadeIn {
         0% { opacity: 0; }
         100% { opacity: 1; }
     }
 
-    /* List container */
+   
     .content-layout {
       display: flex;
       flex-direction: column;
@@ -50,7 +50,7 @@
       text-align: left;
     }
 
-    /* Blog list styling */
+    
     .content-layout ul {
       list-style: none;
       padding: 0;
@@ -62,7 +62,7 @@
     }
 
     .content-layout ul .date {
-      font-family: "Constantia", Georgia, serif; /* ensure Constantia */
+      font-family: "Constantia", Georgia, serif;
       font-weight: bold;
       margin-right: 10px;
     }
@@ -70,23 +70,23 @@
     .content-layout ul a {
       color: #007BFF;
       text-decoration: none;
-      font-size: 1.1em; /* match home page link size */
+      font-size: 1.1em; 
     }
 
     .content-layout ul a:hover {
       text-decoration: underline;
     }
 
-    /* Image styling with drop shadow and rounded corners */
+    
     img {
       width: 100%;
       max-width: 300px;
       height: auto;
-      border-radius: 10px; /* Rounded corners */
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Drop shadow */
+      border-radius: 10px; 
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
     }
 
-    /* Footer styling */
+    
     footer {
       position: fixed;
       bottom: 0;
@@ -106,29 +106,29 @@
       text-decoration: underline;
     }
 
-    /* Responsive styles for mobile */
+    
     @media (max-width: 768px) {
       .container {
-        flex-direction: column; /* Stack items vertically */
-        gap: 20px; /* Reduce gap */
+        flex-direction: column; 
+        gap: 20px; 
       }
 
       .image-container {
         display: flex;
-        justify-content: center; /* Center the image */
-        width: 100%; /* Ensure the image container spans full width */
+        justify-content: center; 
+        width: 100%; 
       }
 
       img {
-        max-width: 60%; /* Reduce image size */
+        max-width: 60%; 
       }
 
       .content-layout ul a {
-        font-size: 1.2rem; /* Increase font size for better readability */
+        font-size: 1.2rem; 
       }
 
       footer {
-        font-size: 1rem; /* Keep footer readable on smaller screens */
+        font-size: 1rem; 
       }
     }
   </style>
