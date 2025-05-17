@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Reminiscence Gallery</title>
   <style>
-    /*==== Constantia ====*/
+   
     @font-face {
       font-family: 'Constantia';
       src: url('fonts/constantia.woff2') format('woff2'),
@@ -15,7 +15,7 @@
       font-display: swap;
     }
     
-    /*==== Reset & layout ====*/
+    
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       background-color: #fff;
@@ -23,8 +23,8 @@
       flex-direction: column;
       align-items: center;
       padding: 20px;
-      position: relative; /* for footer */
-      padding-bottom: 80px; /* space for footer */
+      position: relative; 
+      padding-bottom: 80px;
     }
 
     img {
@@ -36,7 +36,7 @@
       animation: fadeIn 1.5s ease-out forwards;
     }
 
-    /*==== Shift specific slides ====*/
+
     .left-shift {
       transform: translateX(-100px);
     }
@@ -44,7 +44,6 @@
       transform: translateX(100px);
     }
 
-    /*==== Caption styling ====*/
     .slide-caption {
       width: 75%;
       max-width: 800px;
@@ -57,13 +56,13 @@
       animation-delay: 0.5s;
     }
 
-    /*==== Keyframes for fade-in animation ====*/
+
     @keyframes fadeIn {
         0% { opacity: 0; }
         100% { opacity: 1; }
     }
 
-    /*==== Footer styling ====*/
+
     footer {
       font-size: 1rem;
       width: 100%;
@@ -83,7 +82,7 @@
       text-decoration: underline;
     }
 
-    /*==== Mobile Viewing ====*/
+    /*==== Mobile  ====*/
     @media only screen and (max-width: 900px) {
       img {
         width: 100%;
