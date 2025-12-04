@@ -194,5 +194,48 @@
             document.getElementById("time").innerText = formatter.format(new Date());
         }, 1000);
     </script>
+
+    <script>
+  const numFlakes = 50;
+  const colors = ['#e0f7ff', '#cceeff', '#f8f8f8'];
+  const body = document.body;
+
+  for (let i = 0; i < numFlakes; i++) {
+    const f = document.createElement('span');
+    f.innerText = '❄';
+    f.style.position = 'absolute';
+    f.style.fontSize = (12 + Math.random() * 18) + 'px';
+    f.style.left = Math.random() * window.innerWidth + 'px';
+    f.style.top = Math.random() * -window.innerHeight + 'px';
+    f.style.color = colors[Math.floor(Math.random() * colors.length)];
+    f.style.opacity = 0.7 + Math.random() * 0.3;
+    f.style.pointerEvents = 'none';
+    body.appendChild(f);
+
+    const speed = 0.5 + Math.random() * 1.5;
+    const sway = Math.random() * 20;
+
+    (function animate(flake, spd, swayAmount) {
+      let y = parseFloat(flake.style.top);
+      let x = parseFloat(flake.style.left);
+      let swayPhase = Math.random() * Math.PI * 2;
+
+      function step() {
+        y += spd;
+        swayPhase += 0.02;
+        flake.style.top = y + 'px';
+        flake.style.left = x + Math.sin(swayPhase) * swayAmount + 'px';
+
+        if (y > window.innerHeight) {
+          y = -20;
+          x = Math.random() * window.innerWidth;
+        }
+
+        requestAnimationFrame(step);
+      }
+      step();
+    })(f, speed, sway);
+  }
+</script>
 </body>
 </html>
