@@ -10,7 +10,7 @@
 ## The Prompt
 Summarize and critically evaluate the Tao Te Ching’s views on values. Is Lao Tzu correct that our problems come from over-thinking? Is passivity always better than determined action?
 
-![if you dont show up i might have to greg my doucette](https://github.com/user-attachments/assets/2b9f5123-f0dd-4c96-8388-265e38d08d73)
+![if you dont show up i might have to greg my doucette](https://cdn.discordapp.com/attachments/1304981464429105266/1454002420484149351/IMG_6906.JPG?ex=694f80c7&is=694e2f47&hm=2a08d83553a743258f98f1cad63be4eba6b2513446bb25ba1b3d87d2c14c3890&)
 `Source: Emin Özmen`
 
 ## Intro
