@@ -39,7 +39,7 @@ In "Tao Te Ching," Lao Tzu argues that we should act in accordance with the Tao 
 	- Going back to the examples, if you choose to become a lawyer because the practice of law comes naturally to you and learning about it is effortless, you are more likely to be content with your profession in the long run. As for the presentation, instead of overthinking the social conventions around presentations (like mannerisms or professionalism). If you act on what comes naturally and effortlessly, it will be easier to present, and you will not be paralyzed by conventional knowledge.
 ### C: Therefore, if you abandon overthinking, you will be free from problems.
 
-![image](https://github.com/user-attachments/assets/40f2b2fe-4d23-4653-b2e9-e64a2d81eb9f)
+![image](https://cdn.discordapp.com/attachments/1304981464429105266/1454002420484149351/IMG_6906.JPG?ex=694f80c7&is=694e2f47&hm=2a08d83553a743258f98f1cad63be4eba6b2513446bb25ba1b3d87d2c14c3890&)
 `Source: Willem Verbeeck`
 ## Objection To Passivity
 - ### While there may be some cases where passivity is better than determined actions. This will not always be the case
