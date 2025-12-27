@@ -6,3 +6,4 @@ This really resonated with me. At the time of watching this, I was in my senior 
 ![My image[right]](https://github.com/user-attachments/assets/743c53da-745d-441b-aca8-f7edb662c4f4)
 `[caption-center] My "Dumb" iPhone Setup`
 
+political will
