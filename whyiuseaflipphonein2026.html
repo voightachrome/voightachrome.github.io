@@ -142,23 +142,17 @@
       function processImages() {
         const articleBody = document.getElementById('article-body');
         const images = articleBody.querySelectorAll('img');
-        
         images.forEach(img => {
           const alt = (img.getAttribute('alt') || '').toLowerCase().trim();
-          
-          // Check for float indicators in alt text
-          // Supports: [left], [right], left, right, float-left, float-right
           if (alt.includes('[left]') || alt.includes('float-left') || 
               (alt === 'left' && !alt.includes('right'))) {
             img.classList.add('float-left');
-            // Clean up alt text by removing the float indicator
             let cleanAlt = alt.replace(/\[left\]/g, '').replace(/float-left/g, '').trim();
             if (cleanAlt === 'left') cleanAlt = '';
             if (cleanAlt) img.setAttribute('alt', cleanAlt);
           } else if (alt.includes('[right]') || alt.includes('float-right') || 
                      (alt === 'right' && !alt.includes('left'))) {
             img.classList.add('float-right');
-            // Clean up alt text by removing the float indicator
             let cleanAlt = alt.replace(/\[right\]/g, '').replace(/float-right/g, '').trim();
             if (cleanAlt === 'right') cleanAlt = '';
             if (cleanAlt) img.setAttribute('alt', cleanAlt);
