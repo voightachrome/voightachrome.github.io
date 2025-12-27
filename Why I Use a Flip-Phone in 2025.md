@@ -3,6 +3,6 @@ In the Summer of 2025, I decided to buy a flip phone. I was first introduced to 
 
 This really resonated with me. At the time of watching this, I was in my senior year of high school. I wasn't particularly good at school; that's not to say I was bad, but for my goals (at the time, I wanted to do Civil Engineering), they were certainly lacking. At the same time I was struggling in school, I was also really addicted to my smartphone, and my screentime would constantly reach anywhere from 8 to 10 hours a day. I wanted to fix my smartphone to see if it would help me get better at school. So, I decided to experiment with "dumbifying" my iPhone.
 
-![image [right]](https://github.com/user-attachments/assets/743c53da-745d-441b-aca8-f7edb662c4f4)
+![My image[right]](https://github.com/user-attachments/assets/743c53da-745d-441b-aca8-f7edb662c4f4)
 `[caption right] My "Dumb" iPhone Setup`
 
