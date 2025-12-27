@@ -192,27 +192,51 @@
               // Add caption class
               p.classList.add('caption');
               
+              // Extract text content, handling code tags
+              let captionText = text;
+              let workingHTML = html;
+              
+              // If the entire content is wrapped in a single code tag, extract it
+              const codeMatch = workingHTML.match(/^<code>(.*?)<\/code>$/i);
+              if (codeMatch) {
+                workingHTML = codeMatch[1];
+                captionText = codeMatch[1];
+              }
+              
               // Check for alignment markers
-              const lowerText = text.toLowerCase();
+              const lowerText = captionText.toLowerCase();
+              let alignmentClass = 'caption-center'; // default
+              
               if (lowerText.includes('[caption-center]') || lowerText.includes('[center]')) {
-                p.classList.add('caption-center');
-                // Remove alignment markers from text
-                p.innerHTML = p.innerHTML.replace(/\[caption-center\]/gi, '').replace(/\[center\]/gi, '').trim();
+                alignmentClass = 'caption-center';
+                // Remove alignment markers
+                workingHTML = workingHTML.replace(/\[caption-center\]/gi, '').replace(/\[center\]/gi, '').trim();
               } else if (lowerText.includes('[caption-left]') || lowerText.includes('[left]')) {
-                p.classList.add('caption-left');
-                // Remove alignment markers from text
-                p.innerHTML = p.innerHTML.replace(/\[caption-left\]/gi, '').replace(/\[left\]/gi, '').trim();
+                alignmentClass = 'caption-left';
+                // Remove alignment markers
+                workingHTML = workingHTML.replace(/\[caption-left\]/gi, '').replace(/\[left\]/gi, '').trim();
               } else if (lowerText.includes('[caption-right]') || lowerText.includes('[right]')) {
-                p.classList.add('caption-right');
-                // Remove alignment markers from text
-                p.innerHTML = p.innerHTML.replace(/\[caption-right\]/gi, '').replace(/\[right\]/gi, '').trim();
-              } else {
-                // Default to center if no alignment specified
-                p.classList.add('caption-center');
+                alignmentClass = 'caption-right';
+                // Remove alignment markers
+                workingHTML = workingHTML.replace(/\[caption-right\]/gi, '').replace(/\[right\]/gi, '').trim();
               }
               
               // Remove [caption] marker if present
-              p.innerHTML = p.innerHTML.replace(/\[caption\]/gi, '').trim();
+              workingHTML = workingHTML.replace(/\[caption\]/gi, '').trim();
+              
+              // Apply alignment class
+              p.classList.add(alignmentClass);
+              
+              // Update the paragraph content, removing code tags if they wrapped everything
+              if (codeMatch) {
+                p.innerHTML = workingHTML;
+              } else {
+                // Remove markers from HTML while preserving other structure
+                p.innerHTML = workingHTML.replace(/\[caption-center\]/gi, '').replace(/\[center\]/gi, '')
+                                         .replace(/\[caption-left\]/gi, '').replace(/\[left\]/gi, '')
+                                         .replace(/\[caption-right\]/gi, '').replace(/\[right\]/gi, '')
+                                         .replace(/\[caption\]/gi, '').trim();
+              }
             }
           }
         });
