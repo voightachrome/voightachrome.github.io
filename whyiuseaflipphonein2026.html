@@ -48,20 +48,50 @@
     .article-body table { width: 100%; border-collapse: collapse; margin-bottom: 1em; }
     .article-body th, .article-body td { border: 1px solid #ddd; padding: 0.5em 1em; text-align: left; }
     .article-body img { max-width: 80% !important; display: block; margin: 1em auto; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
-    .article-body img.float-right { float: right; max-width: 30%; margin: 0 0 1em 1em; display: block; }
-    .article-body img.float-left { float: left; max-width: 30%; margin: 0 1em 1em 0; display: block; }
+    .article-body img.float-right { float: right; max-width: 30%; margin: 0 0 0.5em 1em; display: block; }
+    .article-body img.float-left { float: left; max-width: 30%; margin: 0 1em 0.5em 0; display: block; }
     .article-body img + p { font-size: 0.9rem; color: #555; margin-top: 0.2em; }
-    .article-body img.float-left + p,
-    .article-body img.float-right + p { font-size: inherit; color: inherit; margin-top: 0; }
+    .article-body img.float-left + p:not(.caption),
+    .article-body img.float-right + p:not(.caption) { font-size: inherit; color: inherit; margin-top: 0; }
     
     /*==== Captions ====*/
-    .article-body .caption { font-size: 0.9rem; color: #555; margin-top: 0.5em; margin-bottom: 1em; display: block; font-style: italic; }
+    .article-body .caption { 
+      font-size: 0.9rem !important; 
+      color: #555 !important; 
+      margin-top: 0.5em !important; 
+      margin-bottom: 1em !important; 
+      display: block; 
+      font-style: italic; 
+      line-height: 1.4;
+    }
     .article-body .caption-center { text-align: center; }
     .article-body .caption-left { text-align: left; }
     .article-body .caption-right { text-align: right; }
+    
     /* For floated images, captions should appear directly under the image */
-    .article-body img.float-left + .caption { clear: left; margin-top: 0.5em; max-width: 30%; }
-    .article-body img.float-right + .caption { clear: right; margin-top: 0.5em; max-width: 30%; margin-left: auto; }
+    .article-body img.float-left + .caption { 
+      clear: left; 
+      float: left; 
+      margin-top: 0.5em; 
+      margin-bottom: 1em;
+      margin-right: 1em;
+      max-width: 30%; 
+      width: 30%;
+      box-sizing: border-box;
+    }
+    .article-body img.float-right + .caption { 
+      clear: right; 
+      float: right; 
+      margin-top: 0.5em; 
+      margin-bottom: 1em;
+      margin-left: 1em;
+      max-width: 30%; 
+      width: 30%;
+      box-sizing: border-box;
+    }
+    
+    /* Ensure text wraps around floated images and captions */
+    .article-body p:not(.caption) { overflow: visible; }
     
     .article-body::after { content: ''; display: table; clear: both; }
 
@@ -172,19 +202,58 @@
         
         images.forEach(img => {
           // Find the next paragraph element after the image
+          // Skip whitespace and other non-paragraph elements
           let nextSibling = img.nextElementSibling;
           while (nextSibling && nextSibling.tagName !== 'P') {
-            nextSibling = nextSibling.nextElementSibling;
+            // Also check text nodes for whitespace
+            if (nextSibling.nodeType === 3 && nextSibling.textContent.trim() === '') {
+              nextSibling = nextSibling.nextSibling;
+            } else {
+              nextSibling = nextSibling.nextElementSibling;
+            }
           }
           
           if (nextSibling && nextSibling.tagName === 'P') {
             const p = nextSibling;
+            const originalHTML = p.innerHTML;
+            const originalText = p.textContent || '';
+            
             // Check if paragraph contains a code element (from backticks)
             const codeEl = p.querySelector('code');
             
+            let captionText = '';
+            let hasCaptionMarker = false;
+            
             if (codeEl) {
-              const captionText = codeEl.textContent || '';
+              // Caption is in backticks - always treat as caption
+              captionText = codeEl.textContent || '';
+              hasCaptionMarker = true;
+            } else {
+              // Get the text content
+              captionText = originalText.trim();
+              
+              // Check for explicit caption markers
+              hasCaptionMarker = /\[caption\]|\[caption-/.test(captionText);
+              
+              // Also treat as caption if:
+              // 1. It's relatively short (under 150 chars)
+              // 2. Doesn't start with markdown syntax (headings, lists, etc.)
+              // 3. Doesn't contain multiple sentences (likely not a caption)
+              const isShort = captionText.length < 150;
+              const noMarkdownSyntax = !captionText.match(/^#{1,6}\s|^[-*+]\s|^\d+\.\s|^>/);
+              const notLongParagraph = !(captionText.match(/\./g) && captionText.match(/\./g).length > 2);
+              
+              if (isShort && noMarkdownSyntax && notLongParagraph) {
+                hasCaptionMarker = true; // Treat as caption
+              }
+            }
+            
+            if (hasCaptionMarker && captionText) {
               const lowerText = captionText.toLowerCase();
+              
+              // Check if the image is floated to determine default alignment
+              const imgIsFloatedLeft = img.classList.contains('float-left');
+              const imgIsFloatedRight = img.classList.contains('float-right');
               
               // Determine alignment
               let alignment = 'center';
@@ -199,36 +268,28 @@
               } else if (lowerText.includes('[caption-center]') || lowerText.includes('[center]')) {
                 alignment = 'center';
                 cleanText = captionText.replace(/\[caption-center\]|\[center\]/gi, '').trim();
+              } else {
+                // If no explicit alignment, match the image float direction
+                if (imgIsFloatedLeft) {
+                  alignment = 'left';
+                } else if (imgIsFloatedRight) {
+                  alignment = 'right';
+                }
+                // Remove [caption] marker if present
+                cleanText = captionText.replace(/\[caption\]/gi, '').trim();
               }
               
               // Apply caption classes
               p.classList.add('caption', `caption-${alignment}`);
               
-              // Replace code element with plain text
-              p.textContent = cleanText;
-            } else if (p.textContent.match(/\[caption\]|\[caption-/i)) {
-              // Handle captions without backticks
-              const text = p.textContent.trim();
-              const lowerText = text.toLowerCase();
-              
-              let alignment = 'center';
-              let cleanText = text;
-              
-              if (lowerText.includes('[caption-left]') || lowerText.includes('[left]')) {
-                alignment = 'left';
-                cleanText = text.replace(/\[caption-left\]|\[left\]/gi, '').trim();
-              } else if (lowerText.includes('[caption-right]') || lowerText.includes('[right]')) {
-                alignment = 'right';
-                cleanText = text.replace(/\[caption-right\]|\[right\]/gi, '').trim();
-              } else if (lowerText.includes('[caption-center]') || lowerText.includes('[center]')) {
-                alignment = 'center';
-                cleanText = text.replace(/\[caption-center\]|\[center\]/gi, '').trim();
+              // Replace content with clean text
+              if (codeEl) {
+                // If it was in code tags, remove the code tags
+                p.textContent = cleanText;
               } else {
-                cleanText = text.replace(/\[caption\]/gi, '').trim();
+                // Preserve any HTML formatting but clean the text
+                p.innerHTML = cleanText;
               }
-              
-              p.classList.add('caption', `caption-${alignment}`);
-              p.textContent = cleanText;
             }
           }
         });
@@ -241,8 +302,10 @@
           document.getElementById('article-body').innerHTML = marked.parse(md);
           // Process images after markdown is parsed
           processImages();
-          // Process captions after images are processed
-          processCaptions();
+          // Process captions after a brief delay to ensure DOM is ready
+          setTimeout(() => {
+            processCaptions();
+          }, 100);
         } catch(e) {
           console.error('Failed to load article:', e);
         }
