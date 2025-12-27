@@ -142,17 +142,23 @@
       function processImages() {
         const articleBody = document.getElementById('article-body');
         const images = articleBody.querySelectorAll('img');
+        
         images.forEach(img => {
           const alt = (img.getAttribute('alt') || '').toLowerCase().trim();
+          
+          // Check for float indicators in alt text
+          // Supports: [left], [right], left, right, float-left, float-right
           if (alt.includes('[left]') || alt.includes('float-left') || 
               (alt === 'left' && !alt.includes('right'))) {
             img.classList.add('float-left');
+            // Clean up alt text by removing the float indicator
             let cleanAlt = alt.replace(/\[left\]/g, '').replace(/float-left/g, '').trim();
             if (cleanAlt === 'left') cleanAlt = '';
             if (cleanAlt) img.setAttribute('alt', cleanAlt);
           } else if (alt.includes('[right]') || alt.includes('float-right') || 
                      (alt === 'right' && !alt.includes('left'))) {
             img.classList.add('float-right');
+            // Clean up alt text by removing the float indicator
             let cleanAlt = alt.replace(/\[right\]/g, '').replace(/float-right/g, '').trim();
             if (cleanAlt === 'right') cleanAlt = '';
             if (cleanAlt) img.setAttribute('alt', cleanAlt);
@@ -178,58 +184,50 @@
             const text = p.textContent || '';
             const html = p.innerHTML || '';
             
-            // Check if paragraph contains inline code (double backticks) or caption markers
-            const hasInlineCode = html.includes('<code>') || /``/.test(text);
+            // Check if paragraph contains inline code or caption markers
+            const hasInlineCode = html.includes('<code>');
             const hasCaptionMarker = /\[caption\]/i.test(text) || /\[caption-/.test(text);
             
             if (hasInlineCode || hasCaptionMarker) {
-              // Add caption class
-              p.classList.add('caption');
+              // Get the raw text content for checking alignment
+              const rawText = text.trim();
+              const lowerText = rawText.toLowerCase();
               
-              // Extract text content, handling code tags
-              let captionText = text;
-              let workingHTML = html;
-              
-              // If the entire content is wrapped in a single code tag, extract it
-              const codeMatch = workingHTML.match(/^<code>(.*?)<\/code>$/i);
-              if (codeMatch) {
-                workingHTML = codeMatch[1];
-                captionText = codeMatch[1];
-              }
-              
-              // Check for alignment markers
-              const lowerText = captionText.toLowerCase();
+              // Determine alignment class
               let alignmentClass = 'caption-center'; // default
-              
               if (lowerText.includes('[caption-center]') || lowerText.includes('[center]')) {
                 alignmentClass = 'caption-center';
-                // Remove alignment markers
-                workingHTML = workingHTML.replace(/\[caption-center\]/gi, '').replace(/\[center\]/gi, '').trim();
               } else if (lowerText.includes('[caption-left]') || lowerText.includes('[left]')) {
                 alignmentClass = 'caption-left';
-                // Remove alignment markers
-                workingHTML = workingHTML.replace(/\[caption-left\]/gi, '').replace(/\[left\]/gi, '').trim();
               } else if (lowerText.includes('[caption-right]') || lowerText.includes('[right]')) {
                 alignmentClass = 'caption-right';
-                // Remove alignment markers
-                workingHTML = workingHTML.replace(/\[caption-right\]/gi, '').replace(/\[right\]/gi, '').trim();
               }
               
-              // Remove [caption] marker if present
-              workingHTML = workingHTML.replace(/\[caption\]/gi, '').trim();
+              // Add caption and alignment classes
+              p.classList.add('caption', alignmentClass);
               
-              // Apply alignment class
-              p.classList.add(alignmentClass);
+              // Remove all caption markers from the text content
+              let cleanedText = rawText.replace(/\[caption-center\]/gi, '')
+                                       .replace(/\[center\]/gi, '')
+                                       .replace(/\[caption-left\]/gi, '')
+                                       .replace(/\[left\]/gi, '')
+                                       .replace(/\[caption-right\]/gi, '')
+                                       .replace(/\[right\]/gi, '')
+                                       .replace(/\[caption\]/gi, '')
+                                       .trim();
               
-              // Update the paragraph content, removing code tags if they wrapped everything
-              if (codeMatch) {
-                p.innerHTML = workingHTML;
+              // If there's a code element, we need to handle it specially
+              const codeElement = p.querySelector('code');
+              if (codeElement) {
+                // Replace the code element's content with cleaned text
+                codeElement.textContent = cleanedText;
+                // If the paragraph only contains the code element, unwrap it
+                if (p.childNodes.length === 1 && p.firstChild === codeElement) {
+                  p.textContent = cleanedText;
+                }
               } else {
-                // Remove markers from HTML while preserving other structure
-                p.innerHTML = workingHTML.replace(/\[caption-center\]/gi, '').replace(/\[center\]/gi, '')
-                                         .replace(/\[caption-left\]/gi, '').replace(/\[left\]/gi, '')
-                                         .replace(/\[caption-right\]/gi, '').replace(/\[right\]/gi, '')
-                                         .replace(/\[caption\]/gi, '').trim();
+                // No code element, just replace the text content
+                p.textContent = cleanedText;
               }
             }
           }
@@ -243,8 +241,10 @@
           document.getElementById('article-body').innerHTML = marked.parse(md);
           // Process images after markdown is parsed
           processImages();
-          // Process captions after images are processed
-          processCaptions();
+          // Process captions after images are processed (use setTimeout to ensure DOM is ready)
+          setTimeout(() => {
+            processCaptions();
+          }, 0);
         } catch(e) {
           console.error('Failed to load article:', e);
         }
