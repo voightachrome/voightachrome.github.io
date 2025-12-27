@@ -1,5 +1,5 @@
 ## Why a Dumb Phone?
-In the Summer of 2025, I decided to buy a flip phone. I was first introduced to the concept of a "dumb" phone in 2023 through a video by [James Scholz.](https://www.youtube.com/watch?v=0f8qXtm_WKI&). He talked about how he used dumb phones to prioritize his time and attention, so he could spend more time on the things that were important to him. 
+In the Summer of 2025, I decided to buy a flip phone. I was first introduced to the concept of a "dumb" phone in 2023 through a video by [James Scholz](https://www.youtube.com/watch?v=0f8qXtm_WKI&). He talked about how he used dumb phones to prioritize his time and attention, so he could spend more time on the things that were important to him. 
 
 
 ![My image[right]](https://github.com/user-attachments/assets/743c53da-745d-441b-aca8-f7edb662c4f4)
