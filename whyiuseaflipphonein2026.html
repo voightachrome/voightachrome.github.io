@@ -171,64 +171,64 @@
         const images = articleBody.querySelectorAll('img');
         
         images.forEach(img => {
-          // Find the next sibling element (could be a paragraph or other element)
+          // Find the next paragraph element after the image
           let nextSibling = img.nextElementSibling;
-          
-          // Look for the first paragraph after the image
           while (nextSibling && nextSibling.tagName !== 'P') {
             nextSibling = nextSibling.nextElementSibling;
           }
           
           if (nextSibling && nextSibling.tagName === 'P') {
             const p = nextSibling;
-            const text = p.textContent || '';
-            const html = p.innerHTML || '';
+            // Check if paragraph contains a code element (from backticks)
+            const codeEl = p.querySelector('code');
             
-            // Check if paragraph contains inline code or caption markers
-            const hasInlineCode = html.includes('<code>');
-            const hasCaptionMarker = /\[caption\]/i.test(text) || /\[caption-/.test(text);
-            
-            if (hasInlineCode || hasCaptionMarker) {
-              // Get the raw text content for checking alignment
-              const rawText = text.trim();
-              const lowerText = rawText.toLowerCase();
+            if (codeEl) {
+              const captionText = codeEl.textContent || '';
+              const lowerText = captionText.toLowerCase();
               
-              // Determine alignment class
-              let alignmentClass = 'caption-center'; // default
-              if (lowerText.includes('[caption-center]') || lowerText.includes('[center]')) {
-                alignmentClass = 'caption-center';
-              } else if (lowerText.includes('[caption-left]') || lowerText.includes('[left]')) {
-                alignmentClass = 'caption-left';
+              // Determine alignment
+              let alignment = 'center';
+              let cleanText = captionText;
+              
+              if (lowerText.includes('[caption-left]') || lowerText.includes('[left]')) {
+                alignment = 'left';
+                cleanText = captionText.replace(/\[caption-left\]|\[left\]/gi, '').trim();
               } else if (lowerText.includes('[caption-right]') || lowerText.includes('[right]')) {
-                alignmentClass = 'caption-right';
+                alignment = 'right';
+                cleanText = captionText.replace(/\[caption-right\]|\[right\]/gi, '').trim();
+              } else if (lowerText.includes('[caption-center]') || lowerText.includes('[center]')) {
+                alignment = 'center';
+                cleanText = captionText.replace(/\[caption-center\]|\[center\]/gi, '').trim();
               }
               
-              // Add caption and alignment classes
-              p.classList.add('caption', alignmentClass);
+              // Apply caption classes
+              p.classList.add('caption', `caption-${alignment}`);
               
-              // Remove all caption markers from the text content
-              let cleanedText = rawText.replace(/\[caption-center\]/gi, '')
-                                       .replace(/\[center\]/gi, '')
-                                       .replace(/\[caption-left\]/gi, '')
-                                       .replace(/\[left\]/gi, '')
-                                       .replace(/\[caption-right\]/gi, '')
-                                       .replace(/\[right\]/gi, '')
-                                       .replace(/\[caption\]/gi, '')
-                                       .trim();
+              // Replace code element with plain text
+              p.textContent = cleanText;
+            } else if (p.textContent.match(/\[caption\]|\[caption-/i)) {
+              // Handle captions without backticks
+              const text = p.textContent.trim();
+              const lowerText = text.toLowerCase();
               
-              // If there's a code element, we need to handle it specially
-              const codeElement = p.querySelector('code');
-              if (codeElement) {
-                // Replace the code element's content with cleaned text
-                codeElement.textContent = cleanedText;
-                // If the paragraph only contains the code element, unwrap it
-                if (p.childNodes.length === 1 && p.firstChild === codeElement) {
-                  p.textContent = cleanedText;
-                }
+              let alignment = 'center';
+              let cleanText = text;
+              
+              if (lowerText.includes('[caption-left]') || lowerText.includes('[left]')) {
+                alignment = 'left';
+                cleanText = text.replace(/\[caption-left\]|\[left\]/gi, '').trim();
+              } else if (lowerText.includes('[caption-right]') || lowerText.includes('[right]')) {
+                alignment = 'right';
+                cleanText = text.replace(/\[caption-right\]|\[right\]/gi, '').trim();
+              } else if (lowerText.includes('[caption-center]') || lowerText.includes('[center]')) {
+                alignment = 'center';
+                cleanText = text.replace(/\[caption-center\]|\[center\]/gi, '').trim();
               } else {
-                // No code element, just replace the text content
-                p.textContent = cleanedText;
+                cleanText = text.replace(/\[caption\]/gi, '').trim();
               }
+              
+              p.classList.add('caption', `caption-${alignment}`);
+              p.textContent = cleanText;
             }
           }
         });
@@ -237,14 +237,12 @@
       async function loadArticle() {
         try {
           const res = await fetch(RAW_MD_URL);
-          const md  = await res.text();
+          const md = await res.text();
           document.getElementById('article-body').innerHTML = marked.parse(md);
           // Process images after markdown is parsed
           processImages();
-          // Process captions after images are processed (use setTimeout to ensure DOM is ready)
-          setTimeout(() => {
-            processCaptions();
-          }, 0);
+          // Process captions after images are processed
+          processCaptions();
         } catch(e) {
           console.error('Failed to load article:', e);
         }
