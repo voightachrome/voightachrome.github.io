@@ -48,9 +48,21 @@
     .article-body table { width: 100%; border-collapse: collapse; margin-bottom: 1em; }
     .article-body th, .article-body td { border: 1px solid #ddd; padding: 0.5em 1em; text-align: left; }
     .article-body img { max-width: 80% !important; display: block; margin: 1em auto; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+    .article-body img.float-right { float: right; max-width: 30%; margin: 0 0 1em 1em; display: block; }
+    .article-body img.float-left { float: left; max-width: 30%; margin: 0 1em 1em 0; display: block; }
     .article-body img + p { font-size: 0.9rem; color: #555; margin-top: 0.2em; }
-    .article-body img.float-right { float: right; max-width: 30%; margin: 0 0 1em 1em; }
-    .article-body img.float-left { float: left; max-width: 30%; margin: 0 1em 1em 0; }
+    .article-body img.float-left + p,
+    .article-body img.float-right + p { font-size: inherit; color: inherit; margin-top: 0; }
+    
+    /*==== Captions ====*/
+    .article-body .caption { font-size: 0.9rem; color: #555; margin-top: 0.5em; margin-bottom: 1em; display: block; font-style: italic; }
+    .article-body .caption-center { text-align: center; }
+    .article-body .caption-left { text-align: left; }
+    .article-body .caption-right { text-align: right; }
+    /* For floated images, captions should appear directly under the image */
+    .article-body img.float-left + .caption { clear: left; margin-top: 0.5em; max-width: 30%; }
+    .article-body img.float-right + .caption { clear: right; margin-top: 0.5em; max-width: 30%; margin-left: auto; }
+    
     .article-body::after { content: ''; display: table; clear: both; }
 
     /*==== Comments ====*/
@@ -72,8 +84,21 @@
     .footer { text-align: center; font-size: 0.8rem; color: blue; padding: 20px 0; }
     .home-button { margin-top: 10px; display: inline-block; font-size: 0.9rem; color: #0066CC; text-decoration: none; }
 
-    @media (max-width: 768px) { .header__title { font-size: 2.5rem; } .header__subtitle { font-size: 1.4rem; } }
-    @media (max-width: 480px) { .header__title { font-size: 2rem; } .header__subtitle { font-size: 1.2rem; } }
+    @media (max-width: 768px) { 
+      .header__title { font-size: 2.5rem; } 
+      .header__subtitle { font-size: 1.4rem; }
+      .article-body img.float-left,
+      .article-body img.float-right {
+        float: none;
+        max-width: 80%;
+        margin: 1em auto;
+        display: block;
+      }
+    }
+    @media (max-width: 480px) { 
+      .header__title { font-size: 2rem; } 
+      .header__subtitle { font-size: 1.2rem; }
+    }
   </style>
 </head>
 <body>
@@ -114,11 +139,94 @@
         document.getElementById('comments-section').classList.toggle('comments--visible');
       });
 
+      function processImages() {
+        const articleBody = document.getElementById('article-body');
+        const images = articleBody.querySelectorAll('img');
+        
+        images.forEach(img => {
+          const alt = (img.getAttribute('alt') || '').toLowerCase().trim();
+          
+          // Check for float indicators in alt text
+          // Supports: [left], [right], left, right, float-left, float-right
+          if (alt.includes('[left]') || alt.includes('float-left') || 
+              (alt === 'left' && !alt.includes('right'))) {
+            img.classList.add('float-left');
+            // Clean up alt text by removing the float indicator
+            let cleanAlt = alt.replace(/\[left\]/g, '').replace(/float-left/g, '').trim();
+            if (cleanAlt === 'left') cleanAlt = '';
+            if (cleanAlt) img.setAttribute('alt', cleanAlt);
+          } else if (alt.includes('[right]') || alt.includes('float-right') || 
+                     (alt === 'right' && !alt.includes('left'))) {
+            img.classList.add('float-right');
+            // Clean up alt text by removing the float indicator
+            let cleanAlt = alt.replace(/\[right\]/g, '').replace(/float-right/g, '').trim();
+            if (cleanAlt === 'right') cleanAlt = '';
+            if (cleanAlt) img.setAttribute('alt', cleanAlt);
+          }
+        });
+      }
+
+      function processCaptions() {
+        const articleBody = document.getElementById('article-body');
+        const images = articleBody.querySelectorAll('img');
+        
+        images.forEach(img => {
+          // Find the next sibling element (could be a paragraph or other element)
+          let nextSibling = img.nextElementSibling;
+          
+          // Look for the first paragraph after the image
+          while (nextSibling && nextSibling.tagName !== 'P') {
+            nextSibling = nextSibling.nextElementSibling;
+          }
+          
+          if (nextSibling && nextSibling.tagName === 'P') {
+            const p = nextSibling;
+            const text = p.textContent || '';
+            const html = p.innerHTML || '';
+            
+            // Check if paragraph contains inline code (double backticks) or caption markers
+            const hasInlineCode = html.includes('<code>') || /``/.test(text);
+            const hasCaptionMarker = /\[caption\]/i.test(text) || /\[caption-/.test(text);
+            
+            if (hasInlineCode || hasCaptionMarker) {
+              // Add caption class
+              p.classList.add('caption');
+              
+              // Check for alignment markers
+              const lowerText = text.toLowerCase();
+              if (lowerText.includes('[caption-center]') || lowerText.includes('[center]')) {
+                p.classList.add('caption-center');
+                // Remove alignment markers from text
+                p.innerHTML = p.innerHTML.replace(/\[caption-center\]/gi, '').replace(/\[center\]/gi, '').trim();
+              } else if (lowerText.includes('[caption-left]') || lowerText.includes('[left]')) {
+                p.classList.add('caption-left');
+                // Remove alignment markers from text
+                p.innerHTML = p.innerHTML.replace(/\[caption-left\]/gi, '').replace(/\[left\]/gi, '').trim();
+              } else if (lowerText.includes('[caption-right]') || lowerText.includes('[right]')) {
+                p.classList.add('caption-right');
+                // Remove alignment markers from text
+                p.innerHTML = p.innerHTML.replace(/\[caption-right\]/gi, '').replace(/\[right\]/gi, '').trim();
+              } else {
+                // Default to center if no alignment specified
+                p.classList.add('caption-center');
+              }
+              
+              // Remove [caption] marker if present
+              p.innerHTML = p.innerHTML.replace(/\[caption\]/gi, '').trim();
+            }
+          }
+        });
+      }
+
       async function loadArticle() {
         try {
           const res = await fetch(RAW_MD_URL);
           const md  = await res.text();
           document.getElementById('article-body').innerHTML = marked.parse(md);
+          // Process images after markdown is parsed
+          processImages();
+          // Process captions after images are processed
+          processCaptions();
         } catch(e) {
           console.error('Failed to load article:', e);
         }
