@@ -254,35 +254,20 @@
             }
             
             if (hasCaptionMarker && captionText) {
-              const lowerText = captionText.toLowerCase();
-              
-              // Check if the image is floated to determine default alignment
+              // Check if the image is floated to automatically match alignment
               const imgIsFloatedLeft = img.classList.contains('float-left');
               const imgIsFloatedRight = img.classList.contains('float-right');
               
-              // Determine alignment
+              // Automatically match the image's alignment
               let alignment = 'center';
-              let cleanText = captionText;
-              
-              if (lowerText.includes('[caption-left]') || lowerText.includes('[left]')) {
+              if (imgIsFloatedLeft) {
                 alignment = 'left';
-                cleanText = captionText.replace(/\[caption-left\]|\[left\]/gi, '').trim();
-              } else if (lowerText.includes('[caption-right]') || lowerText.includes('[right]')) {
+              } else if (imgIsFloatedRight) {
                 alignment = 'right';
-                cleanText = captionText.replace(/\[caption-right\]|\[right\]/gi, '').trim();
-              } else if (lowerText.includes('[caption-center]') || lowerText.includes('[center]')) {
-                alignment = 'center';
-                cleanText = captionText.replace(/\[caption-center\]|\[center\]/gi, '').trim();
-              } else {
-                // If no explicit alignment, match the image float direction
-                if (imgIsFloatedLeft) {
-                  alignment = 'left';
-                } else if (imgIsFloatedRight) {
-                  alignment = 'right';
-                }
-                // Remove [caption] marker if present
-                cleanText = captionText.replace(/\[caption\]/gi, '').trim();
               }
+              
+              // Clean text - remove any caption markers that might be present
+              let cleanText = captionText.replace(/\[caption\]|\[caption-left\]|\[caption-right\]|\[caption-center\]|\[left\]|\[right\]|\[center\]/gi, '').trim();
               
               // Apply caption classes
               p.classList.add('caption', `caption-${alignment}`);
