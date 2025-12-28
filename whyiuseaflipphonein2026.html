@@ -48,8 +48,10 @@
     .article-body table { width: 100%; border-collapse: collapse; margin-bottom: 1em; }
     .article-body th, .article-body td { border: 1px solid #ddd; padding: 0.5em 1em; text-align: left; }
     .article-body img { max-width: 80% !important; display: block; margin: 1em auto; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
-    .article-body img.float-right { float: right; max-width: 30%; margin: 0 0 0.5em 1em; display: block; }
-    .article-body img.float-left { float: left; max-width: 30%; margin: 0 1em 0.5em 0; display: block; }
+    .article-body img.float-right { float: right; max-width: 30%; margin: 0 0 0 1em; display: block; }
+    .article-body img.float-left { float: left; max-width: 30%; margin: 0 1em 0 0; display: block; }
+    /* Remove top margin from captions so they attach directly to images */
+    .article-body img + .caption { margin-top: 0 !important; }
     .article-body img + p { font-size: 0.9rem; color: #555; margin-top: 0.2em; }
     .article-body img.float-left + p:not(.caption),
     .article-body img.float-right + p:not(.caption) { font-size: inherit; color: inherit; margin-top: 0; }
@@ -58,8 +60,9 @@
     .article-body .caption { 
       font-size: 0.9rem !important; 
       color: #555 !important; 
-      margin-top: 0.5em !important; 
+      margin-top: 0 !important; 
       margin-bottom: 1em !important; 
+      padding-top: 0.3em;
       display: block; 
       font-style: italic; 
       line-height: 1.4;
@@ -72,9 +75,10 @@
     .article-body img.float-left + .caption { 
       clear: left; 
       float: left; 
-      margin-top: 0.5em; 
+      margin-top: 0 !important; 
       margin-bottom: 1em;
       margin-right: 1em;
+      padding-top: 0.3em;
       max-width: 30%; 
       width: 30%;
       box-sizing: border-box;
@@ -82,9 +86,10 @@
     .article-body img.float-right + .caption { 
       clear: right; 
       float: right; 
-      margin-top: 0.5em; 
+      margin-top: 0 !important; 
       margin-bottom: 1em;
       margin-left: 1em;
+      padding-top: 0.3em;
       max-width: 30%; 
       width: 30%;
       box-sizing: border-box;
@@ -281,6 +286,9 @@
               
               // Apply caption classes
               p.classList.add('caption', `caption-${alignment}`);
+              
+              // Remove bottom margin from the image so caption attaches directly
+              img.style.marginBottom = '0';
               
               // Replace content with clean text
               if (codeEl) {
