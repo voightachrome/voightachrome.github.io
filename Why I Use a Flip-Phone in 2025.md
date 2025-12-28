@@ -14,7 +14,7 @@ The phone I bought is a Kyocera 902kc. It’s a flip phone with a camera, (which
 ![image](https://github.com/user-attachments/assets/fd27c909-bb1b-44f7-8918-d289bf7d4e84)
 `Taken with the 902kc camera`
 
-The Kyocera 902kc can hotspot, text and call, and it runs Android 8.1, which lets me download the basic apps I need. (Spotify/Apple Music, university recreation app, Maps, etc.) But because it is still a flip phone, it doesn’t have the power to run social media apps like Instagram or TikTok. Nor would I want to run apps like that on a flip-phone. Typing on it is slow; it crashes if more than two apps are open at the same time; there are no live directions in maps; and pretty much every part of using it is unpleasant. I find myself not wanting to use it at all (at most, I use it for 30 minutes a day, excluding music). 
+The Kyocera 902kc can hotspot, text and call, and it runs Android 8.1, which lets me download the basic apps I need. (Spotify/Apple Music, university recreation app, Maps, etc.) But because it's still a flip phone, it doesn’t have the power to run social media apps like Instagram or TikTok. Nor would I want to run apps like that on a flip-phone. Typing on it is slow; it crashes if more than two apps are open at the same time; there are no live directions in maps; and pretty much every part of using it is unpleasant. I find myself not wanting to use it at all (at most, I use it for 30 minutes a day, excluding music). 
 
 ![image |1000](https://github.com/user-attachments/assets/5f60b98d-b81c-46fd-a0e4-398ee549d879)
 `Apple Music on the Kyocera 902kc`
