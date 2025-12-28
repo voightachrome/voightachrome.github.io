@@ -5,18 +5,16 @@ In the Summer of 2025, I decided to buy a flip phone. I was first introduced to 
 ![My image[right]](https://github.com/user-attachments/assets/743c53da-745d-441b-aca8-f7edb662c4f4)
 `My "Dumb" iPhone Setup`
 
-This really resonated with me. At the time of watching this, I was in my senior year of high school. I wasn't particularly good at school; that's not to say I was bad, but for my goals (at the time, I wanted to do Civil Engineering), they were certainly lacking. At the same time I was struggling in school, I was also really addicted to my smartphone, and my screentime would constantly reach anywhere from 8 to 10 hours a day. I wanted to fix my smartphone to see if it would help me get better at school. So, I decided to experiment with "dumbifying" my iPhone.
+This really resonated with me. At the time of watching this, I was in my senior year of high school. I wasn't particularly good at school; that's not to say I was bad, but for my goals (at the time, I wanted to do Civil Engineering), they were certainly lacking. At the same time I was struggling in school, I was also really addicted to my smartphone, and my screentime would constantly reach anywhere from 8 to 10 hours a day. I wanted to fix my smartphone to see if it would help me get better at school. So, I decided to experiment with "dumbifying" my iPhone. While this worked for me for a time and helped me lower my screentime. I found myself slowly turning off these blockers and of high school apps, and eventually, I ended up back where I started, and after my lack of success with “dumbifying” my iPhone, I forgot about the idea.
 
-While this worked for me for a time and helped me lower my screentime. I found myself slowly turning off these blockers and of high school apps, and eventually, I ended up back where I started. 
-
-After my lack of success with “dumbifying” my iPhone, I forgot about the idea. Fastforwarding to my first year of university, while my grades were pretty acceptable now, I continued to find myself increasingly dependent on my phone. It wasn't good for my relationships, and the feeling of commuting for hours, only to not remember any of it because I was on my phone the entire time, was mind-numbing to say the least. Eventually, I just got tired of my phone entirely and became determined to set a boundary between myself and it. All of this culminated in August of 2025, when I decided to make a change for good, and I bought a flip phone. 
+Fastforward to my first year of university, while my grades were pretty acceptable now, I continued to find myself increasingly addicted to my phone. It wasn't good for my relationships, and the feeling of commuting for hours, only to not remember any of it because I was on my phone the entire time, was mind-numbing to say the least. Eventually, I just got tired of my phone entirely and became determined to set a boundary between myself and it. All of this culminated in August of 2025, when I decided to make a change for good, and I bought a flip phone. 
 
 
 ## The Phone
 The phone I bought is a Kyocera 902kc. It’s a flip phone with a camera, which is surprisingly not bad. It has a pretty nostalgic look. 
 ![image](https://github.com/user-attachments/assets/a0881ddf-d706-4bb8-aba2-112029a41011)
 ![image](https://github.com/user-attachments/assets/fd27c909-bb1b-44f7-8918-d289bf7d4e84)
-
+'Taken fron the 902kc camera'
 The Kyocera 902kc runs Android 8.1, which lets me download the basic apps I need. (Spotify/Apple Music, university recreation app, maps, Google Messages, etc.) But because it is still a flip phone, it doesn’t have the power to run social media apps like Instagram or TikTok. Nor would I want to run apps like that on a flip-phone. Typing on it is slow; it crashes if more than two apps are open at the same time; there are no live directions in maps; and pretty much every part of using it is unpleasant. I find myself not wanting to use it at all (at most, I use it for 30 minutes a day, excluding music). 
 
 It’s for that very reason that I love this phone; it does everything I need it to, and none of what I do not, and it allows me to prioritize my time and attention on the people and things that matter the most.
