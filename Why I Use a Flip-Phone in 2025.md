@@ -21,7 +21,7 @@ The Kyocera 902kc can hotspot, text and call, and it runs Android 8.1, which let
 
 It’s for that very reason that I love this phone; it does everything I need it to, and none of what I don't, and it allows me to spend my time and save my attention on the people and things that matter the most. 
 
-If you are interested in learning more about the technical aspects of using a dumbphone, as well as this specific phone, I have a seperate post titiled [*So you want to use a dumbphone? (TBA)*](https://github.com/user-attachments/assets/729d3388-48b0-4571-ae8b-44ac361a60c4). It's also important to note that you don't need to buy anything in order to create good habits with technology, you can do this right now. More on this later.
+If you are interested in learning more about the technical aspects of using a dumbphone, as well as this specific phone, I have a seperate post titiled [*So you want to use a dumbphone? (TBA)*](https://github.com/user-attachments/assets/729d3388-48b0-4571-ae8b-44ac361a60c4). It's also important to note that you don't need to buy anything in order to create good habits with technology, you can do this right now. More on this below.
 
 I would now like to shift my attention to respond to potential questions or worries about using a dumbphone, as well as some criticisms i have heard.
 
