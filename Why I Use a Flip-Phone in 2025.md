@@ -8,7 +8,6 @@ This really resonated with me. At the time of watching this, I was in my senior 
 
 Fastforward to my first year of university, while my grades were pretty acceptable now, I continued to find myself increasingly addicted to my phone. It wasn't good for my relationships, and the feeling of commuting for hours, only to not remember any of it because I was on my phone the entire time, was mind-numbing to say the least. Eventually, I just got tired of my phone entirely and became determined to set a boundary between myself and it. All of this culminated in August of 2025, when I decided to make a change for good, and I bought a flip phone. 
 
-
 ## The Phone
 The phone I bought is a Kyocera 902kc. It’s a flip phone with a camera, (which is surprisingly not bad. It has a pretty nostalgic look.) 
 ![image](https://github.com/user-attachments/assets/a0881ddf-d706-4bb8-aba2-112029a41011)
@@ -17,7 +16,7 @@ The phone I bought is a Kyocera 902kc. It’s a flip phone with a camera, (which
 
 The Kyocera 902kc can hotspot, text and call, and it runs Android 8.1, which lets me download the basic apps I need. (Spotify/Apple Music, university recreation app, Maps, etc.) But because it is still a flip phone, it doesn’t have the power to run social media apps like Instagram or TikTok. Nor would I want to run apps like that on a flip-phone. Typing on it is slow; it crashes if more than two apps are open at the same time; there are no live directions in maps; and pretty much every part of using it is unpleasant. I find myself not wanting to use it at all (at most, I use it for 30 minutes a day, excluding music). 
 
-![image|1024x2032](https://cdn.discordapp.com/attachments/1302401341456646145/1420472375253926089/IMG_8097.jpg?ex=6951727d&is=695020fd&hm=0cd1735da11327f15605b31b5791b632862440c1135ff6bc2a8f13ab62ced6a9&)
+![image|1024x2032](https://github.com/user-attachments/assets/5f60b98d-b81c-46fd-a0e4-398ee549d879)
 `Apple Music on the Kyocera 902kc`
 
 It’s for that very reason that I love this phone; it does everything I need it to, and none of what I do not, and it allows me to spend my time and save my attention on the people and things that matter the most. 
