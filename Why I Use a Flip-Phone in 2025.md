@@ -1,5 +1,5 @@
-## Why a Dumb Phone?
-In the Summer of 2025, I decided to buy a flip phone. I was first introduced to the concept of a "dumb" phone in 2023 through a video by [James Scholz](https://www.youtube.com/watch?v=0f8qXtm_WKI&). He talked about how he used dumb phones to prioritize his time and attention, so he could spend more time on the things that were important to him. 
+## Why a Dumbphone?
+In the Summer of 2025, I decided to buy a flip phone. I was first introduced to the concept of a "dumb" phone in 2023 through a video by [James Scholz](https://www.youtube.com/watch?v=0f8qXtm_WKI&). He talked about how he used dumbphones to prioritize his time and attention, so he could spend more time on the things that were important to him. 
 
 
 ![My image[right]](https://github.com/user-attachments/assets/743c53da-745d-441b-aca8-f7edb662c4f4)
@@ -34,4 +34,10 @@ It seems that the recent rise of new technologies have tricked us into thinking 
 ## Worries about Consumerism 
 ![DSC06899](https://github.com/user-attachments/assets/09d904d4-c3f1-4a4e-9266-53b1d94073cb)
 
-(TBD)
+As you can see in the images above, I own many dedicated devices. I own a flip phone, an iPod for listening to music, and an e-ink tablet for taking notes and doing my readings. Before I had an e-ink tablet, I had a smaller e-reader for reading books and manga. I have a camera and a digital camcorder; you get the idea. I buy these devices because I want to use things which don't fight for my attention. When I want to use them, I do, and when I don't have a reason to, I don't. However, a potential concern is that adopting this lifestyle may lead us to engage in mindless consumerism, where the first response we have to create healthier relationships with technology is to replace the technologies we have, without critically thinking about whether it's a smart thing to do. I also think this is a serious concern given the recent rise in dedicated dumbphones like the Light Phone III, Mudita Kompakt, and Minimal Phone, which cost anywhere from 500 to 800 USD! 
+
+So, I want to say that you do not need any of the devices I mentioned to be more intentional with technology. In fact, you can do it right now. You can turn your smartphone into a dumbphone with app blockers and shortcut commands that prevent you from turning it off, so it's essentially the same as owning a dumbphone. (If you want a guide on how to do so, please defer to [*So you want to use a dumbphone? (TBA)*](https://github.com/user-attachments/assets/729d3388-48b0-4571-ae8b-44ac361a60c4) If you do not want to go through this process, you can set time limits on specific apps or set the screen to monochrome in your settings app to make it less compelling to use. You can start at any level to build healthier habits with technology, and any effort you make is beneficial. There's no excuse for not doing so.
+
+It took me 2 years of deliberation to decide whether I wanted to purchase a dumbphone, and I have thought through every purchase I have made when replacing the technologies I own to live more intentionally, and because of that, I use these devices consistently. A lot of these things are cheap or were gifted to me by people who no longer found them useful. Personally, I was able to purchase my dumbphone used for 100 CAD, a far cry from 800 USD for a specialized device.
+
+Lastly, we should remember that smartphones are designed to keep you on them for as long as possible so we can see more ads. But if you're not on a smartphone, you won't be exposed to as many ads, especially personalized ads. So you will feel less of an urge to buy products you might not need. By using alternative technologies to live intentionally, we can become **less consumeristic.**
