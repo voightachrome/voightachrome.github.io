@@ -35,7 +35,7 @@ To me, the people who raise this criticism do not understand the lengths to whic
 ## I Can’t Live Without (Insert) App!
 It seems that the recent rise of new technologies have tricked us into thinking that they are necessary for our existence, as if most of us were not able to live before these apps became available (this is by design; I will write about this another time). This is a lie; we can live without 24/7 access to Instagram, Snapchat, Twitter, or TikTok. If you want to continue using those apps, use them on a computer where they are less of a distraction. If you have friends who make it impossible for you to go without 24/7 social media access, maybe you should re-evaluate those friendships. It is not hard to call or text someone when you need them. If you have family who uses WhatsApp or Facebook Messenger, or you need a phone that supports 2FA or banking apps, there are numerous dumbphones that can run them, as long as they have Android (as well as Google Play Services for banking apps). [Defer to Jose Briones’s dumbphone finder tool](https://www.dumbphones.org/) or [r/dumbphones](https://www.reddit.com/r/dumbphones/) if you need help finding a phone that supports these apps. If you need a notes app, carry a notebook and a pen. If you need a calendar app, use the new found notebook and pen to write the event, then add it to your calendar app while on your computer. Everything has a workaround, and most of the things we consider necessary are things we can live without for a couple of hours a day. We have done it before; we can do it again.  
 
-## Worries about Consurmerism 
+## Worries about Consumerism 
 ![DSC06899](https://github.com/user-attachments/assets/09d904d4-c3f1-4a4e-9266-53b1d94073cb)
 
 (To Be Added)
