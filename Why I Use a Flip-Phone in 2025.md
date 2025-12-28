@@ -21,11 +21,7 @@ The Kyocera 902kc can hotspot, text and call, and it runs Android 8.1, which let
 
 It’s for that very reason that I love this phone; it does everything I need it to, and none of what I don't, and it allows me to spend my time and save my attention on the people and things that matter the most. 
 
-If you are interested in the 902kc, please do research as to whether your service provider supports this phone. You can do this by checking [the supported bands for the 902kc](https://www.softbank.jp/biz/set/data/mobile/lineup/keitai/digno_keitai3_for_biz/specs/pdf/digno_keitai3_for_biz.pdf) to see if your provider supports them, as well as checking whether your provider has a whitelist for only certain devices, which can potentially affect your service (this is the case with AT&T in America, and it might be the case with your provider as well). Also important to note is that, while the 902kc is a 4G phone, some service providers in Canada plan to shut down 3G service, which could hurt service on the phone as a fallback when 4G is unavailable. As of now, I can confirm that in Canada, it works with Telus/Koodo and Rogers/Fido in metropolitan areas.
-
-I was able to purchase it through a local listing on Reddit for 100 CAD, but I have seen them on Facebook Marketplace around 150 CAD in the Greater Toronto Area. If you are unable to find this model locally, then you can either purchase one on eBay, or import one from Japan using a service like Buyee.
-
-Some good resources on dumbphones can be found on [r/dumbphones](https://www.reddit.com/r/dumbphones/) (for general knowledge on all dumbphones) and [r/garaho](https://www.reddit.com/r/garaho/) (for knowledge on Japanese/Korean flip phones like the 902kc) on Reddit. If you have questions, please leave them in the comments. I will try my best to answer!
+If you are interested in learning more about the technical aspects of using a dumbphone, as well as this specific phone, I have a seperate post titiled [*So you want to use a dumbphone?*]((https://github.com/user-attachments/assets/729d3388-48b0-4571-ae8b-44ac361a60c4)). It's also important to note that you don't need to buy anything in order to create good habits with technology, you can do this right now. More on this later.
 
 I would now like to shift my attention to respond to potential questions or worries about using a dumbphone, as well as some criticisms i have heard.
 
