@@ -23,4 +23,4 @@ any thoughts?
 
 last updated: 12/30/25
 
-<img width="420" height="420" alt="image" src="https://github.com/user-attachments/assets/2bc32fe5-0d91-41e6-8709-18d3116465f8" />
+<img width="320" height="320" alt="image" src="https://github.com/user-attachments/assets/2bc32fe5-0d91-41e6-8709-18d3116465f8" />
