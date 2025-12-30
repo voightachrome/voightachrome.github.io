@@ -1,3 +1,5 @@
+## Field Notes 
+
 #### this is what i think end game for me is right now 
 
 cold turkey blocker with 2 types of blocks: 
