@@ -2,10 +2,10 @@
 
 cold turkey blocker with 2 types of blocks: 
 
-#1 a semester long block where i can reevaluate my use for those apps another time or just perma block them entirely 
+**#1** a semester long block where i can reevaluate my use for those apps another time or just perma block them entirely 
    - the only things i can see falling into the first category is AI. Things that would be perma blocked would be nsfw + twitter (partially because of its mixed sfw/nsfw nature, mostly because its a cesspool of ai slop, disinformation, bot accounts, and ragebaiters on the internet) 
 
-#2 A schedule to block social media at all times except for 10:00 - 10:30pm (whenever an hour before my desired bedtime is).
+**#2** A schedule to block social media at all times except for 10:00 - 10:30pm (whenever an hour before my desired bedtime is).
 
 instagram/tiktok/discord/facebook either partially blocked or fully blocked within #2 
 
