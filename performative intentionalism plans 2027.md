@@ -1,4 +1,4 @@
-## performative intentionalism plans 2027 (field notes)
+## performative intentionalism plans 2027 
 
 #### this is what i think end game for me is right now 
 
