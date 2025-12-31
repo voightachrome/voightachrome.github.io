@@ -21,6 +21,7 @@ Under this veil, it would radically change how we make decisions. First, people 
 
 
 ## Clarifying Remarks
+
 ### Institutional Justice vs Individual Justice
 Rawls is primarily concerned with Institutional Justice rather than Individual Justice. So when we use the veil of ignorance, we aim to create laws that can be applied to the institutions of our society. The reason for this is as follows: Lets say that soap is trying to get a job as a Doctor, and as she goes to the interview and meets with the hiring manager, the hiring manager sees that she is asian and a woman and says "oh sorry soap but we don't hire asian women, we only hire 6'0+ wasian men named Peter. This is obviously discrimination, and if this is a case of individual injustice, Soap can go and report the hiring manager for discrimination, or take them to court, or find a different position at one of the many other hospitals that do not discriminate against people based on race. 
 
@@ -33,10 +34,42 @@ The first one is a question of how we are supposed to place ourselves in the vei
 
 Rawls would respond by saying that this is a misunderstanding as to how should use the veil of ignorance. For Rawls, we should use it as a tool to compare the principles we come up with. Lets go back to the first example with Soap. Soap is advocating for all Asian American Women who are Doctors in the United States to make more money than Jeff Bezos. If Soap took that idea and asked herself the question "would i do that under the veil of ignorance? would i advocate for this if i did not know i was a woman or asian or was a doctor?" If the answer for her is no, than it is probably not a good principle to advocate for.
 
-The second objection is harder to understand, if you have a question let me know. It goes like this. Hypotheticals do not contain binding agreements. The veil of ignorance is a hypothetical situation. Therefore, the principles we come up using it are not binding principles. Imagine Vik was buying Daniel's ereader. Vik asks Daniel if he would sell it for 100 bucks, and Daniel responds "I could, but im really fixed at 150 right now, and i would rather sell it for 150, i dont feel 100 at the moment." This obviously does not give vik the right to give Daniel 100 dollars and take the ereader out of his hands and walk away. He never formally agreed to sell it for 100 dollars. 
+The second objection is harder to understand, It goes like this:
+
+- P1: Hypotheticals do not contain binding agreements. 
+- P2: The veil of ignorance is a hypothetical situation.
+- C: Therefore, the principles we come up using it are not binding principles. 
+
+Imagine Vik was buying Daniel's ereader. Vik asks Daniel if he would sell it for 100 bucks, and Daniel responds "I could, but im really fixed at 150 right now, and i would rather sell it for 150, i dont feel 100 at the moment." This obviously does not give vik the right to give Daniel 100 dollars and take the ereader out of his hands and walk away. He never formally agreed to sell it for 100 dollars. 
 
 I think the second objection falls under the same issue as the first one. It is not like the veil of ignorance makes the principles or whether we agree to them for us. We use it as a tool to create more just principles and then ask ourselves "Should we agree to this rule/principle". So i think Rawls avoids both objections.
 
+
+### Self Interest vs Ideals of Justice (the general conception of the original position) 
+If you are under the veil of ignorance, we make principles out of self interest and not out of an ideal of justice, and we do so to retain goods that would be good for us regardless of our conception of the good life. For Rawls, if we are under the veil of ignorance, self interest for one becomes justice for all. If you do not know your particular place in society, you are going to make rules which are just for everyone, to make sure that they end up being just for you.
+
+## A question of method
+There is a question about how we should go about applying the original position. Rawls says a bunch of stuff about this. He first thinks about three questions that we must answer.
+
+- The question of liberty: How can we secure liberties so people are free to be able to fulfill their conception of a good life. 
+- The question of opportunity: How can we secure opportunities to be able to fulfill our conception of a good life
+- The question of distribution: How should we distribute resources for people to be able to fulfill our conception of the good life. 
+
+
+For Rawls, The liberty principle takes priority over the other two. There is also the difference principle which argues that we should  consider the position of the worst off the most when we make decisions. if you do not understand thats fine i will explain all of it.
+
+## Priority of the Liberty Principle
+
+### Liberty vs Liberties
+The liberty principle for Rawls is concerned with liberties and not liberty. Liberty is more concerned maximization of freedom, and that is not really what we are considering here. We are trying to find principles which allow us to pursue our ideal good life. So an example of one of these liberties would be the right to non-discrimination, or freedom of religion, freedom to own personal property, or freedom of speech.
+
+### Lexical Ordering
+There is a reason why the liberty principle takes priority over the other two. Remember our example of soap not being able to get a job as a doctor because of she was being institutionally discriminated against? We cant worry about questions about if there are enough opportunities, or questions on if we have enough resources to distribute equally, until we have answered the question of liberty. None of those things matter for soap because she is already locked out from being able to achieve her conception of the good life because of her lack of liberties.
+
+Another way Rawls argues for this is through the idea that resources are only useful in so far as they help us secure our conception of the good life. But if we cannot pursue our conception of the good life because of a lack of liberties, it seems that our resources become useless to us. 
+
+### Does the liberty principle always have priority? 
+The liberty principle in general has priority over the other principles, but there is also a sense that in non-ideal situations the liberty principle can be overridden in order to justify smth greater in that moment. For example, if you live in a society where people are starving because they cannot afford food, whatever good life they could possibly want to achieve is not gonna be possible in that moment through liberties, it would be possible through making sure they can survive on a day to day basis. So we can potentially justify suspending certain liberties in order to prioritize the other principles, but we have to have justification for suspending those liberties in that moment.
 
 
 what do you think? 
