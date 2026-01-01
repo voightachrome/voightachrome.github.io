@@ -42,7 +42,7 @@ The second objection is harder to understand, It goes like this:
 - P2: The veil of ignorance is a hypothetical situation.
 - C: Therefore, the principles we come up using it are not binding principles. 
 
-Imagine Vik was buying Daniel's ereader. Vik asks Daniel if he would sell it for 100 bucks, and Daniel responds "I could, but im really fixed at 150 right now, and i would rather sell it for 150, i dont feel 100 at the moment." This obviously does not give vik the right to give Daniel 100 dollars and take the ereader out of his hands and walk away. He never formally agreed to sell it for 100 dollars. 
+Imagine Vik was buying Daniel's ereader. Vik asks Daniel if he would hypothetically sell it for 100 bucks, and Daniel responds Yes. This obviously does not give vik the right to give Daniel 100 dollars and take the ereader out of his hands and walk away. He never formally agreed to sell it for 100 dollars. 
 
 I think the second objection falls under the same issue as the first one. It is not like the veil of ignorance makes the principles or whether we agree to them for us. We use it as a tool to create more just principles and then ask ourselves "Should we agree to this rule/principle". So i think Rawls avoids both objections.
 
