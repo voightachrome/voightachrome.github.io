@@ -108,7 +108,12 @@ Now lets take Society B and  compare it to Society C. In Society C inequality is
 
 
 For Rawls however, It does not make sense to choose to live in Society C over Society B. When we are making a decision under the Veil of Ignorance, the risks that make sense when you are choosing the prospects for your life (when its the only life you have) are different from just betting on a lottery. You have to really understand and accept being put in any social condition under the veil of ignorance. I do not think most people would accept being the worst off person in Society C.
+
+
 Im curious if people here would really choose Society C over Society B? Please comment and let me know!
+
+
+
 
 ## Nozick and Lockean Property Rights 
 Nozick starts off by talking about property rights as the basis of liberty. There are three basic rules for Nozick in regard to property rights. lets use Soap as an example.  
@@ -122,13 +127,37 @@ There is also the principle of rectification, if Soap acquires something illegit
 One way that Nozick differs from Rawls is that he is not concerned with making rules that apply to the structures of society, he is only worried about individual acquisition and transfers, everything outside of that is fair game. What this means is that things like discrimination are okay for Nozick, as long as they do not involve illegitimate acquisition or illegitimate transfer. You can turn away someone from your cake shop for being gay or for being black as long as you havent broken these rules, and the state should not stop it unless it does break these rules.
 
 
+## What is a pattern?
+For Nozick, a pattern is any principle of justice which distributes under a criteria. For example, Rawls's difference principle is an example of a pattern. Rawls wants us to create rules on the basis that they always prioritize the worst off.
 
-what do you think? 
+
+## LeBron James Thought Experiment (the actual name is the Wilt Chamberlin Thought Experiment, but Im using LeBron because i like LeBron)
+
+Lets imagine that we have a distribution principle called D1 (lets say that it distributes wealth along the pattern of need). LeBron James is getting ready to play the next NBA season, but he will not agree to play unless people who are coming to watch him play pay a “LeBron James Tax”. LeBron James makes a certain amount of money from the fans who come to watch him play. Of course, because it is LeBron James, people are more than willing to pay the LeBron James Tax and watch him. However, the result of this tax is that D1 (distribution according to need) has been violated. LeBron James is now far wealthier than D1 would want him to be. But, it is hard to see why this is an issue.
+
+First, the fans who have freely chosen to pay this tax got their money from our original D1 distribution.
+
+Second, people who are not fans or LeBron do not seem to have a claim against this tax. They are not being forced to pay this tax at all, it is completely voluntary.
+
+For Nozick, the only way we can maintain our original distribution, is if we stop consenting adults from spending their money how they want to. So we would have to stop this LeBron James Tax and ban people from spending this extra money.
+
+So it seems like LeBron should be free to carry out this tax, and the fans should be free to pay it, even if it breaks our pattern. This is what Nozick means when he says that liberty disrupts patterns.
+
+
+
+I will add the rest in a bit, Im curious as to how you think Rawls should respond to this criticism by Nozick. Who do you think offers a more compelling view of Justice? 
+
+
 last updated: 12/31/25
 
 
 
-  <img width="426.6" height="259.3" alt="Image" src="https://github.com/user-attachments/assets/1f727d2b-1b2f-45f4-a1ee-f31cb0a27844" />
+
+<img width="426.6" height="259.3" alt="Image" src="https://github.com/user-attachments/assets/1f727d2b-1b2f-45f4-a1ee-f31cb0a27844" />
+
+
+
+<img width="368" height="552" alt="image" src="https://github.com/user-attachments/assets/1a14ba8e-b59d-416a-af0d-e560d869b7c2" />
 
   
   "Do a money spread lil bro!" - Robert Nozick to John Rawls.... ***Rawls Never Replied*** 
