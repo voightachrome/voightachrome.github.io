@@ -69,7 +69,53 @@ There is a reason why the liberty principle takes priority over the other two. R
 Another way Rawls argues for this is through the idea that resources are only useful in so far as they help us secure our conception of the good life. But if we cannot pursue our conception of the good life because of a lack of liberties, it seems that our resources become useless to us. 
 
 ### Does the liberty principle always have priority? 
-The liberty principle in general has priority over the other principles, but there is also a sense that in non-ideal situations the liberty principle can be overridden in order to justify smth greater in that moment. For example, if you live in a society where people are starving because they cannot afford food, whatever good life they could possibly want to achieve is not gonna be possible in that moment through liberties, it would be possible through making sure they can survive on a day to day basis. So we can potentially justify suspending certain liberties in order to prioritize the other principles, but we have to have justification for suspending those liberties in that moment.
+The liberty principle in general has priority over the other principles, but **(to me)** there is also a sense that in non-ideal situations the liberty principle can be overridden in order to justify something greater in that moment. For example, if you live in a society where people are starving because they cannot afford food, whatever good life they could possibly want to achieve is not gonna be possible in that moment through liberties, it would be possible through making sure they can survive on a day to day basis. So we can potentially justify suspending certain liberties in order to prioritize the other principles, but we have to have justification for suspending those liberties in that moment.
+
+## The opportunity principle
+The opportunity principle is the second principle Rawls adresses in his original position. I think it is pretty easy to see why the opportunity principle is necessary to fulfilling our conceptions of the good life. The argument for it is very similar to the argument for the liberty principle. Lets use Soap as an example again. Lets imagine that Soap is applying for med school in Canada because she wants to become a doctor. Getting into med school in the country of Canada is an exceedingly difficult thing because of the incredibly low med school admission rates, and an incredibly low amount of residency positions, and the people involved in this system seem have no want to advocate for increased admission + residency positions. Even though there is an overwhelming shortage for doctors of all kinds within Canada. This is not really fair at all. Soap should be able to have the opportunity to become a doctor in Canada and fulfil her dreams.
+
+
+This is what Rawls advocates for: **Equality of opportunity.** He says that people who have the same talents/abilities for a field, and the same drive to attain them, should be able to have the same prospects when it comes to whatever they want to do. 
+
+### Is this just a pipe dream? Is Rawls onto something?
+
+There are a bunch of questions that come with the equality of opportunity principle, first of which is that it seems very difficult to do this in real life. If we are to carry out the equality of oppurtunity principle, then everyone regardless if they are poor or rich and regardless of their ethnicity or gender should be able to make it in their field as long as they have the same level of talent and the same ability to use them. 
+
+Putting that aside, this seems like something we would agree too under the veil of ignorance. It also seems like a good thing to advocate for in general, one can imaging that there are a lot of untapped talent in marginalized communities which either can not be developed because a person is too poor or is discriminated against. This does not seem like something we should be okay with. 
+
+### Why Equality of Opportunity is Not Sufficient
+There is a big issue with the equality of opportunity principle as presented by Rawls. It has to do with the fact that a the people involved have to have an equal level of talent and ability and an equal level of drive to use those talents/abilities. You can choose to believe that everyone is talented and everyone has abilities, and you can make the argument for that. But what you cant make the argument for is that everyone has a marketable talent or ability. You can imagine someone like Soap who is really talented at STEM, and a person like Finnan who is really good at eating desserts during thanksgiving. Soap's talent is far more marketable than Finnan's. So, if we are under the veil of ignorance, it does not seem sufficient just to account for equality of opportunity when you do not know if you will have marketable talents or the drive to use them.
+
+## The Difference Principle
+The difference principle is probably the most progressive principle within the original position. It says that when we make principles of justice, it is in our best interest to prioritize the position of the worst off. 
+
+So lets imagine a Society called Society A, and another one called Society B. Society A is an equal society where everyone is making equal  (yet very little) amount of money. and in Society B, there is a some inequality in terms of what people are making, but it is not radical. Most importantly the lowest off position Is better off in society B than they were in society A. So it seems that we should go through some inequality and choose Society B because the lowest position will be better off.
+
+
+<img width="230" height="145.5" alt="image" src="https://github.com/user-attachments/assets/0bd72d32-510f-4ff8-865d-574dbe86d5ba" />
+`Visual Representation of Society A and Society B`
+
+
+Now lets take Society B and  compare it to Society C. In Society C inequality is vastly greater, people are making far more money at the top of the distribution than they were in society B. Would it make sense to choose to live in society C than Society B? You can even think about this like its a lottery. If you end up at the top of the distribution you get great gain, vastly more than you would make if you chose society B. 
+
+
+<img width="230" height="159.5" alt="image" src="https://github.com/user-attachments/assets/d6bf8be8-026b-4cf0-aa87-f526b2eaa21f" />
+
+
+For Rawls however, It does not make sense to choose to live in Society C over Society B. When we are making a decision under the Veil of Ignorance, the risks that make sense when you are choosing the prospects for your life (when its the only life you have) are different from just betting on a lottery. You have to really understand and accept being put in any social condition under the veil of ignorance. I do not think most people would accept being the worst off person in Society C.
+Im curious if people here would really choose Society C over Society B? Please comment and let me know!
+
+## Nozick and Lockean Property Rights 
+Nozick starts off by talking about property rights as the basis of liberty. There are three basic rules for Nozick in regard to property rights. lets use Soap as an example.  
+
+1. If Soap acquires something through legitimate means, it is hers
+2. If someone transfers something to Soap legitimately, It is hers
+3. Soap cannot transfer or acquire something without repeated application of 1 or 2
+
+There is also the principle of rectification, if Soap acquires something illegitimately, she has the responsibility to rectify that injustice. That can be done through a number of ways. 
+
+One way that Nozick differs from Rawls is that he is not concerned with making rules that apply to the structures of society, he is only worried about individual acquisition and transfers, everything outside of that is fair game. What this means is that things like discrimination are okay for Nozick, as long as they do not involve illegitimate acquisition or illegitimate transfer. You can turn away someone from your cake shop for being gay or for being black as long as you havent broken these rules, and the state should not stop it unless it does break these rules.
+
 
 
 what do you think? 
