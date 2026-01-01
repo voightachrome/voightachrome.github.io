@@ -9,8 +9,10 @@ Rawls starts, as Hobbes and Marx did, with a couple of minimal assumptions about
 
 - Premise 1: Humans have to live together in this world
 - Premise 2: To continually survive, it is in our best interest to cooperate, make rules, and whatnot, and make them as good as possible. 
-- Premise 3: We all have different conceptions of what makes a good life and what makes a just society. (A catholic has a different idea of a just society and good life than a Buddhist, and a rich person has a different conception than a poor person, etc.) 
+- Premise 3: We all have different conceptions of what makes a good life and what makes a just society. (A Catholic has a different idea of a just society and good life than a Buddhist, and a rich person has a different conception than a poor person, etc.)
+  
 **Conclusion:** We cannot make the best possible rules because we cannot agree on what is just and unjust. 
+
 
 So this is the problem Rawls is dealing with: how can we create a society that is just for everyone when everyone disagrees on what makes a just society? This is the idea of Justice as fairness between everyone in society.
 
@@ -102,7 +104,9 @@ Now lets take Society B and  compare it to Society C. In Society C inequality is
 
 <img width="230" height="159.5" alt="image" src="https://github.com/user-attachments/assets/d6bf8be8-026b-4cf0-aa87-f526b2eaa21f" />
 
-`Visual Representation of Society A and Society B`
+`Visual Representation of Society B and Society C`
+
+
 For Rawls however, It does not make sense to choose to live in Society C over Society B. When we are making a decision under the Veil of Ignorance, the risks that make sense when you are choosing the prospects for your life (when its the only life you have) are different from just betting on a lottery. You have to really understand and accept being put in any social condition under the veil of ignorance. I do not think most people would accept being the worst off person in Society C.
 Im curious if people here would really choose Society C over Society B? Please comment and let me know!
 
