@@ -155,7 +155,7 @@ last updated: 12/31/25
 
 <img width="426.6" height="259.3" alt="Image" src="https://github.com/user-attachments/assets/1f727d2b-1b2f-45f4-a1ee-f31cb0a27844" />
 
-<img width="320" height="320" alt="image" src="https://github.com/user-attachments/assets/122f1e04-f823-47e1-bb59-c8b900cd2096" />
+<img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/122f1e04-f823-47e1-bb59-c8b900cd2096" />
 
   
   "Do a money spread lil bro!" - Robert Nozick to John Rawls.... ***Rawls Never Replied*** 
