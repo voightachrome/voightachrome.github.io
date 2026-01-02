@@ -32,7 +32,7 @@ These are the books on my radar that I want to get through at some point within 
 - **Black Skin White Masks - Frantz Fanon**
 - The Wretched of the Earth - Frantz Fanon
 - **Afro-pessimism - Frank B. Wilderson III**
-	- READ NUMEROUS CRITIQUES TO THIS BOOK !!!! VERY CONTROVERSIAL INDEED !! 
+	- + Numerous Critiques to Afro-Pessimism
 - **Orientalism - Edward W. Said**
 
 
