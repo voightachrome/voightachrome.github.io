@@ -49,8 +49,10 @@
 
 
 ## Feminist Philosophy
-- **The Second Sex - Simone De Beauvoir** 
+- **The Second Sex - Simone De Beauvoir**
+
 (OR)
+
 - **Feminism is for Everybody - Bell Hooks** 
 
 
