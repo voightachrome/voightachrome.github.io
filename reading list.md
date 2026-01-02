@@ -60,13 +60,13 @@ These are the books on my radar that I want to get through at some point within 
 - All About Love - Bell Hooks 
 
 
-## Religion (Christian and Islamic Thought)
+## Religion 
 
 
 ### Christian Books
 - **Youth of the Apocalypse: And the Last True Rebellion - John Marler**
-- **Mere Christianity - C.S Lewis** 
-
+- **Mere Christianity - C.S Lewis**
+- **Confessions - St. Augustine**
 ### Biblical Readings
 - **Book of Ecclesiastes**
 - **Synoptic Gospels (Matthew, Mark, Luke)**
