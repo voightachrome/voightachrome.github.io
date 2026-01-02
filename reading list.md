@@ -67,6 +67,7 @@ These are the books on my radar that I want to get through at some point within 
 - **Youth of the Apocalypse: And the Last True Rebellion - John Marler**
 - **Mere Christianity - C.S Lewis**
 - **Confessions - St. Augustine**
+- **(Some of) The Christian Theology Reader - Alister E. McGrath**
 ### Biblical Readings
 - **Book of Ecclesiastes**
 - **Synoptic Gospels (Matthew, Mark, Luke)**
