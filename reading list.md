@@ -75,7 +75,7 @@ These are the books on my radar that I want to get through at some point within 
 - **Acts** 
 - **Pauline Epistles**
 
-### Early Church Fathers 
+### Early Church  
 - **On the Incarnation - Athanasius of Alexandria**
 - **First Apology - Justin Martyr**
 - **Four Discourses Against The Arians - Athanasius of Alexandria**
