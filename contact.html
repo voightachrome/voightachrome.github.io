@@ -25,32 +25,44 @@
         100% { opacity: 1; }
     }
 /*==== Body ====*/ 
-    body {
+    html, body {
       margin: 0;
       padding: 0;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+    }
+    body {
       background-color: white;
       color: black;
       font-family: "Constantia', "Times New Roman", Tinos," serif;
-      height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
       position: relative;
-
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: clamp(1vh, 2vh, 3vh);
+      padding: 0 clamp(2vw, 4vw, 6vw);
     }
     p {
-      font-size: 1.5em; 
+      font-size: clamp(1.2rem, 4vw, 2rem); 
       margin: 0;
+      line-height: 1.4;
     }
+
+
 
     /*==== Footer ====*/
     footer {
-      font-size: 1rem;
+      font-size: clamp(0.875rem, 2vw, 1rem);
       width: 100%;
       text-align: center;
       background-color: #fff;
-      padding: 10px 0;
+      padding: clamp(8px, 1.5vh, 12px) 0;
       position: absolute;
       bottom: 0;
       left: 0;
@@ -63,6 +75,7 @@
     footer a:hover {
       text-decoration: underline;
     }
+
   </style>
 </head>
 <body>
