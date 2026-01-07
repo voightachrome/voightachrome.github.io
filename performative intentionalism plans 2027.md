@@ -18,9 +18,9 @@ instagram/tiktok/discord/facebook either partially blocked or fully blocked with
 - tiktok and facebook will be fully blocked within the duration of the schedule 
 
 - I have thought about reddit as well, but i have genuine uses for the platform with the existence of r/askphilosophy and my university subreddit. among other things. setting it to old reddit as well makes it less compelling for me to want to use
-
+   - EDIT: I now use a reddit extension to block everything except for comment sections of reddit posts...
 any thoughts?
 
-last updated: 12/30/25
+last updated: 1/6/26
 
 <img width="320" height="320" alt="image" src="https://github.com/user-attachments/assets/2bc32fe5-0d91-41e6-8709-18d3116465f8" />
