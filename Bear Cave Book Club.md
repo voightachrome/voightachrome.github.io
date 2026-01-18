@@ -20,5 +20,9 @@
 ## What types of books will we discuss?
 - Anything is allowed to be put forth to be discussed. However, whatever books are requested by participating members will be put to a vote for everyone to decide what we read next.
 
-## First Book 
-- Confessions By St. Augustine 
+## Book 1 ! 
+**Confessions By St. Augustine:**
+-  **NOTE:** Please read from the Oxford World's Classics Version (Translated by Hendry Chadwick), if you have a differnet version that works as well, but if you can stick to this translation!
+
+## First Meeting + Assigned Reading: Friday Jan 30th! Please read all of Book I
+
