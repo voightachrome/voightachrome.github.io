@@ -14,12 +14,12 @@ These are the books on my radar that I want to get through at some point within 
 
 
 ## African Social and Political Thought 
-- **(Chapter 17 & 18) of Neo-colonialism: The Last Stage of Imperialism - Kwame Nkrumah**
+- **(Chapter 17 & 18) of Neo-colonialism: The Last Stage of Imperialism - Kwame Nkrumah (CURRENTLY READING)**
 - **(Some of) African Political Thought - Stephen Chan**
 
 
 ## African Fiction
-- **Things Fall Apart - Chinua Achebe** 
+- **Things Fall Apart - Chinua Achebe (DONE)**  
 - **No Longer at Ease - Chinua Achebe** 
 - **Arrow of God - Chinua Achebe** 
 ## Chinese Philosophy
@@ -65,7 +65,7 @@ These are the books on my radar that I want to get through at some point within 
 
 ### Christian Books
 - **Youth of the Apocalypse: And the Last True Rebellion - John Marler**
-- **Mere Christianity - C.S Lewis**
+- **Mere Christianity - C.S Lewis (CURRENTLY READING)**
 - **Confessions - St. Augustine**
 - **(Some of) The Christian Theology Reader - Alister E. McGrath**
 ### Biblical Readings
