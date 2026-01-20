@@ -22,6 +22,8 @@ These are the books on my radar that I want to get through at some point within 
 - **Things Fall Apart - Chinua Achebe (DONE)**  
 - **No Longer at Ease - Chinua Achebe** 
 - **Arrow of God - Chinua Achebe** 
+
+
 ## Chinese Philosophy
 - **The Philosophy of the Daodejing - Hans Georg Moeller**
 - **Zhuangzi: Basic Writings - Burton Watson**
@@ -37,7 +39,7 @@ These are the books on my radar that I want to get through at some point within 
 
 
 ## Existentialism 
-- Existentialism is a Humanism - Jean Paul Sartre
+- Existentialism is a Humanism - Jean Paul Sartre (CURRENTLY READING)
 - **The Ethics of Ambiguity -  Simone De Beauvoir**
 
 
