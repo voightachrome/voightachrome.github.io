@@ -19,3 +19,4 @@
 
 ## I will provide you a sample analytic paper so you can get an idea of what to do... GOOD LUCK!
 
+<img width="316" height="508" alt="image" src="https://github.com/user-attachments/assets/6033dc14-df53-41cc-ae2c-2b0d5cef03fa" />
