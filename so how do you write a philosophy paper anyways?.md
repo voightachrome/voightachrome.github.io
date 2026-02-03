@@ -1,5 +1,5 @@
 # How to write an Argumentative Essay 
-- (Taken from ESSAY WRITING HANDBOOK FOR PHILOSOPHY STUDENTS by Evan Thompson & Duff Waring, Department of Philosophy, York University) 
+- [(Taken from ESSAY WRITING HANDBOOK FOR PHILOSOPHY STUDENTS by Evan Thompson & Duff Waring, Department of Philosophy, York University)](https://www.yorku.ca/hjackman/Teaching/handbook.pdf) 
 
 ## Analytic Essay (AKA the Peter Singer Paper You Must Write) 
 
