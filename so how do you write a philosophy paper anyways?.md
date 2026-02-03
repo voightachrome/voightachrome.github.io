@@ -20,3 +20,6 @@
 ## I will provide you a sample analytic paper so you can get an idea of what to do... GOOD LUCK!
 
 <img width="316" height="508" alt="image" src="https://github.com/user-attachments/assets/6033dc14-df53-41cc-ae2c-2b0d5cef03fa" />
+
+![Bear Writes a Letter](https://github.com/user-attachments/assets/acd25f53-70b8-4a65-a66c-012ee2aa023c)
+
