@@ -1,7 +1,7 @@
 # How to write an Argumentative Essay 
 - [(Taken from ESSAY WRITING HANDBOOK FOR PHILOSOPHY STUDENTS by Evan Thompson & Duff Waring, Department of Philosophy, York University)](https://www.yorku.ca/hjackman/Teaching/handbook.pdf) 
 
-## Analytic Essay (AKA the Peter Singer Paper You Must Write) 
+## Analytic Essay
 
 ### Essays written for philosophy courses must be analytic or argumentative. An analytic essay is one in which you restate in your own words the argument—the line of reasoning from premises to conclusion—of an important passage of philosophy. In so doing, you show that you understand the structure of the argument.
 
