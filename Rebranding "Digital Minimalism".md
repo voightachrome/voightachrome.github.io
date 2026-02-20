@@ -31,4 +31,4 @@ This is the point of using specialized devices: they are good for what you need 
 
 ![image](https://github.com/user-attachments/assets/42e80fac-7cd9-4bcf-ac66-28c533b35843)
 
-  `Emmanuel College Library - Victoria University, Toronto ON, Canada.`
+`Emmanuel College Library - Victoria University, Toronto ON, Canada.`
