@@ -9,7 +9,12 @@ Starting with this definition, the term "digital minimalism" seems to fail as a 
 The first point seems to be a problem for "digital minimalism"; I do not think one has to own fewer things (or more things) to participate in "digital minimalism". So as an attempt to rectify "digital minimalism". I would like to change the term to **Digital Intentionalism**. To be a Digital Intentionalist means creating more intentional relationships with technology (It's in the name LOL). I think that the term digital intentionalism frees us from potential accusations that come with an indirect association with the minimalism movement.  
   
 One can be a digital intentionalist and use and own many digital devices, as long as they take steps to develop healthier habits with them. There doesn't seem to be anything minimal about using 2-3 devices to replace the task of a single device. However, there does seem to be something intentional about using 2-3 devices to get everything you need and nothing you don't. On the flip side, there is nothing inherently non-intentional about using a few devices, as long as one takes steps to create healthier relationships with them. As long as you are working to create healthier relationships with technology, everything else is free game.  
-  
+
+
+
 ## What would be the point of buying certain devices to be digitally intentional?  
 I often go to the library without my smartphone or laptop. However, I have a dumbphone and an e-ink tablet. Why would I do this? Before I go to this library, I ask myself what I need to do there, and many things come to mind. I need the full ability to study and focus on whatever task is at hand. I need to be able to call or text people to stay in touch with friends and family when needed, to carry light while on the go, etc. However, I have no reason to check social media or to check my e-mail. There are various things that distract me in my life that I have no reason to use while I'm at this library. So I choose not to bring them with me at all, in case I am distracted by them.  
 This is the point of using specialized devices: they are good for what you need and none of what you don't. They create environments that help you succeed. This is why the digital intentionalism movement seems marked by an increase in single-purpose devices among its adherents. These devices help create environments that keep you focused while still enjoying the benefits of technology.
+
+![image](https://github.com/user-attachments/assets/42e80fac-7cd9-4bcf-ac66-28c533b35843)
+`Emmanuel College Library - Victoria University, Toronto ON, Canada.`
