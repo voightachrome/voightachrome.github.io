@@ -29,7 +29,7 @@ I often go to the library without my smartphone or laptop. However, I have a dum
 
 This is the point of using specialized devices: they are good for what you need and none of what you don't. They create environments that help you succeed. This is why the digital intentionalism movement seems marked by an increase in single-purpose devices among its adherents. These devices help create environments that keep you focused while still enjoying the benefits of technology. This is not to say that these devices will automatically make you more productive. You can create the best conditions for success and still fail. To succeed, you must be first willing to help yourself.
 
-last updated: 20/2/26
+last updated: 2/20/26
 ![image](https://github.com/user-attachments/assets/42e80fac-7cd9-4bcf-ac66-28c533b35843)
 
 `Emmanuel College Library - Victoria University, Toronto ON, Canada.`
