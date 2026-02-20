@@ -1,5 +1,5 @@
-# **Understanding Rawls Theory of Justice + Some Nozick (Notes for PHIL 2923)**
-
+# **Understanding Rawls Theory of Justice + Some Nozick**
+**Taken for PHIL 2923 (Fall 2025)** 
 
 ## Justice vs Legitimacy
 Rawls is trying to answer a fundamental question: what makes an ideally just society? In this way, he differs from past social contract theorists who were concerned with legitimacy. A legitimate state is a state that performs the minimal functions required to be considered a state; a state like Haiti, for example, might be considered illegitimate because it is not meeting the necessary bar of what a state is supposed to be doing. However, with Rawls, he is concerned with what an ideal state looks like, which is more complex than what a legitimate state looks like. For example, China is a legitimate state, but it is by no means a just one. So we are trying to answer the questions: do we want our state to look more like Russia, Sweden, China, or Canada? And how can we improve to reach the ideal state? 
