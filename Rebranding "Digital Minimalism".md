@@ -23,7 +23,7 @@ One can be a digital intentionalist and use and own many digital devices, as lon
 
 
 ## What would be the point of buying certain devices to be digitally intentional?  
-I often go to the library without my smartphone or laptop. However, I have a dumbphone and an e-ink tablet. Why would I do this? Before I go to this library, I ask myself what I need to do there, and many things come to mind. I need the full ability to study and focus on whatever task is at hand. I need to be able to call or text people to stay in touch with friends and family when needed, to carry light while on the go, etc. However, I have no reason to check social media or to check my e-mail. There are various things that distract me in my life that I have no reason to use while I'm at this library. So I choose not to bring them with me at all, in case I am distracted by them.  
+I often go to the library without my smartphone or laptop. However, I have a dumbphone and an e-ink tablet. Why would I do this? Before I go to this library, I ask myself what I need to do there, and many things come to mind. I need the full ability to study and focus on whatever task is at hand. I need to be able to call or text people to stay in touch with friends and family when needed, to carry light while on the go, etc. However, I have no reason to check social media or to check my e-mail. There are various things that distract me in my life that I have no reason to use while I'm at this library. So I choose not to bring them with me at all in case I am distracted by them.  
 
 
 
