@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Rebranding "Digital Minimalism"</title>
 
-  <!-- Favicon -->
   <link rel="icon" type="image/x-icon"
         href="https://raw.githubusercontent.com/voightachrome/voightachrome.github.io/refs/heads/main/Nichijou%20Logo%20(1).ico">
 
-  <!-- Fonts -->
   <style>
+    /*==== Font ====*/ 
     @font-face {
       font-family: 'Constantia';
       src: url('fonts/constantia.woff2') format('woff2'),
@@ -20,6 +19,7 @@
       font-display: swap;
     }
 
+    /*==== Layout ====*/ 
     body {
       font-family: 'Constantia', "Times New Roman", Tinos, serif;
       background: #fff;
@@ -34,7 +34,16 @@
 
     .container { width: 100%; max-width: 800px; }
 
-    /* Comments */
+    /*==== Image Scaling Fix (added) ====*/ 
+    .article-body img {
+      max-width: calc(100vw - 40px); /* always fits on screen */
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 1.5em auto;
+    }
+
+    /*==== Comments ====*/ 
     .comments__header {
       cursor: pointer;
       font-size: 1.2rem;
@@ -43,29 +52,21 @@
       border: none;
       display: flex;
       align-items: center;
-      width: 100%;
       font-family: 'Constantia', serif;
+      width: 100%;
+      justify-content: flex-start;
     }
 
     .comments__arrow {
-      margin-left: auto;
-      font-size: 1.5rem;
       transition: transform 0.3s ease;
+      font-size: 1.5rem;
+      margin-left: auto;
     }
 
-    .comments--visible .comments__arrow {
-      transform: rotate(90deg);
-    }
+    .comments--visible .comments__arrow { transform: rotate(90deg); }
 
-    .comments__list {
-      list-style: none;
-      padding: 0;
-      display: none;
-    }
-
-    .comments--visible .comments__list {
-      display: block;
-    }
+    .comments__list { list-style: none; padding: 0; display: none; }
+    .comments--visible .comments__list { display: block; }
 
     .comment-item {
       padding: 15px 0;
@@ -83,12 +84,12 @@
     .body blockquote {
       border-left: 2px solid #ccc;
       background: #f9f9f9;
-      padding: 0.5em;
-      margin: 0.5em 0;
       color: #666;
+      margin: 0.5em 0;
+      padding: 0.5em 0.5em;
     }
 
-    /* Footer */
+    /*==== Footer ====*/ 
     .footer {
       text-align: center;
       font-size: 0.8rem;
@@ -103,14 +104,31 @@
       color: #0066CC;
       text-decoration: none;
     }
-  </style>
 
-  <!-- Marked.js -->
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    @media (max-width: 768px) {
+      .header__title { font-size: 2.5rem; }
+      .header__subtitle { font-size: 1.4rem; }
+      .article-body img.float-left,
+      .article-body img.float-right {
+        float: none;
+        max-width: 80%;
+        margin: 1em auto;
+        display: block;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .header__title { font-size: 2rem; }
+      .header__subtitle { font-size: 1.2rem; }
+    }
+  </style>
 </head>
 
 <body>
   <div class="container">
+    <div class="header-wrapper">
+      <div class="image-container"></div>
+    </div>
 
     <section id="article-body" class="article-body">Loading article...</section>
 
@@ -130,13 +148,14 @@
     <footer class="footer">
       <a href="index.html" class="home-button">Home</a>
     </footer>
-
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
   <script>
     marked.setOptions({ gfm: true });
 
-    (function () {
+    (function() {
       const RAW_MD_URL =
         'https://raw.githubusercontent.com/voightachrome/voightachrome.github.io/refs/heads/main/Rebranding%20%22Digital%20Minimalism%22.md';
 
@@ -205,6 +224,5 @@
       });
     })();
   </script>
-
 </body>
 </html>
