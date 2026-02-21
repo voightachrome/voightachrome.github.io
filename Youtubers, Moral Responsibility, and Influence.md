@@ -19,3 +19,4 @@ Furthermore, I think that YouTubers have a responsibility to have clear or consi
 ## Why does this even matter? Why should YouTubers have extra moral responsibilities to act in good faith (aside from the obvious responsibilities previously discussed)?
 
 
+![image](https://github.com/user-attachments/assets/83b1ddd8-4c97-4837-b411-d6e497fc247c)
