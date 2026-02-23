@@ -39,7 +39,7 @@ These are the books on my radar that I want to get through at some point within 
 
 
 ## Existentialism 
-- Existentialism is a Humanism - Jean Paul Sartre (CURRENTLY READING)
+- Existentialism is a Humanism - Jean Paul Sartre (DONE)
 - **The Ethics of Ambiguity -  Simone De Beauvoir**
 
 
@@ -47,7 +47,7 @@ These are the books on my radar that I want to get through at some point within 
 - **Technopoly: The Surrender of Culture to Technology - Neil Postman**
 - Vita Contemplativa: In Praise of Inactivity - Byung Chul Han
 - **The Burnout Society - Byung Chul Han**
-- Shanzhai - Byung Chul Han
+- The Hannah Arendt Reader - Hannah Arendt
 
 
 ## Feminist Philosophy
@@ -86,4 +86,6 @@ These are the books on my radar that I want to get through at some point within 
 
 ### Islamic Books 
 - The Quran 
+
+last updated: 2/23/26
 
