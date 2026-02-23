@@ -47,7 +47,7 @@ These are the books on my radar that I want to get through at some point within 
 - **Technopoly: The Surrender of Culture to Technology - Neil Postman**
 - Vita Contemplativa: In Praise of Inactivity - Byung Chul Han
 - **The Burnout Society - Byung Chul Han**
-- The Hannah Arendt Reader - Hannah Arendt
+- **The Portable Hannah Arendt - Hannah Arendt**
 
 
 ## Feminist Philosophy
