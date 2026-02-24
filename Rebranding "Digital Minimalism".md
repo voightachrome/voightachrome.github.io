@@ -1,4 +1,6 @@
-# Rebranding "Digital Minimalism"  
+---
+title: Rebranding "Digital Minimalism"
+---
 Digital Minimalism is a movement that strives to create a healthy relationship between us and the technology in our lives. For the goal that technology works for us, and not against us (by stealing our time, attention, and ability to focus).  
 
 
