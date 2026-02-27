@@ -32,22 +32,28 @@ These are the books on my radar that I want to get through at some point within 
 
 ## Post Colonial Thought 
 - **Black Skin White Masks - Frantz Fanon**
-- The Wretched of the Earth - Frantz Fanon
-- **Afro-pessimism - Frank B. Wilderson III**
-  + Numerous Critiques to Afro-Pessimism
+
+(OR)
+                    
+- **The Wretched of the Earth - Frantz Fanon**
+
+
+- Afro-pessimism - Frank B. Wilderson III
 - **Orientalism - Edward W. Said**
 
 
 ## Existentialism 
-- Existentialism is a Humanism - Jean Paul Sartre (DONE)
+- **Existentialism is a Humanism - Jean Paul Sartre** (DONE)
+- **Fear and Trembling - Søren Kierkegaard**
 - **The Ethics of Ambiguity -  Simone De Beauvoir**
 
 
 ## Contemporary Society  
 - **Technopoly: The Surrender of Culture to Technology - Neil Postman**
-- Vita Contemplativa: In Praise of Inactivity - Byung Chul Han
+- **Vita Contemplativa: In Praise of Inactivity - Byung Chul Han**
 - **The Burnout Society - Byung Chul Han**
 - **The Portable Hannah Arendt - Hannah Arendt**
+- **The Human Condition - Hannah Arendt**
 
 
 ## Feminist Philosophy
@@ -58,10 +64,6 @@ These are the books on my radar that I want to get through at some point within 
 - **Feminism is for Everybody - Bell Hooks** 
 
 
-## Philosophy of Love 
-- All About Love - Bell Hooks 
-
-
 ## Religion 
 
 
@@ -70,6 +72,7 @@ These are the books on my radar that I want to get through at some point within 
 - **Mere Christianity - C.S Lewis**
 - **Confessions - St. Augustine (CURRENTLY READING)**
 - **(Some of) The Christian Theology Reader - Alister E. McGrath**
+- **The Cross and the Lynching Tree - James Cone (CURRENTLY READING)**
 ### Biblical Readings
 - **Book of Ecclesiastes**
 - **Synoptic Gospels (Matthew, Mark, Luke)**
