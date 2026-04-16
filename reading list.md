@@ -5,6 +5,13 @@ These are the books on my radar that I want to get through at some point within 
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/a5098df0-ecde-4d08-9e79-1b01a106fa67" />
 
+## Political Philosophy
+- **Why Not Socialism - G.A. Cohen (DONE)**
+- **Justice as Fairness: A Restatement - John Rawls**
+- **If You're an Egalitarian, How Come You're So Rich - G.A Cohen**
+- **The Concept of Socialist Law - Christine Sypnowich**
+
+## Moral Philosophy
 
 ## African Philosophy 
 - **Philosophy and an African Culture - Kwasi Wiredu**
@@ -44,7 +51,7 @@ These are the books on my radar that I want to get through at some point within 
 
 ## Existentialism 
 - **Existentialism is a Humanism - Jean Paul Sartre** (DONE)
-- **Fear and Trembling - Søren Kierkegaard**
+- **Fear and Trembling (Knight of Faith and Knight of Infinite Resignation) - Søren Kierkegaard (DONE)**
 - **The Ethics of Ambiguity -  Simone De Beauvoir**
 
 
@@ -57,7 +64,7 @@ These are the books on my radar that I want to get through at some point within 
 
 
 ## Feminist Philosophy
-- **The Second Sex - Simone De Beauvoir**
+- **The Second Sex: Introduction - Simone De Beauvoir (DONE)**
 
 (OR)
 
