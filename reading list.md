@@ -1,6 +1,6 @@
 # Reading List: 2026 and Beyond!
 These are the books on my radar that I want to get through at some point within the next 2 years! 
-- PS: If the text is **BOLD**, It is a book I wish to finish within 2026. 
+- PS: If the text is **BOLD**, It is a book I wish to read (to some extent or another) within 2026. 
 
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/a5098df0-ecde-4d08-9e79-1b01a106fa67" />
