@@ -9,7 +9,15 @@ These are the books on my radar that I want to get through at some point within 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/a5098df0-ecde-4d08-9e79-1b01a106fa67" />
 
 ## Political Philosophy
+- **(PARTS OF) Leviathan - Thomas Hobbes (DONE)**
+- **Second Treatise of Government - John Locke (DONE)**
+- **Discourse On the Origin of Inequality - Jean-Jacques Rousseau (DONE)**
+- **The Social Contract - Jean-Jacques Rousseau (DONE)**
+- **Idea for a Universal History with a Cosmopolitan Purpose - Immanuel Kant (DONE)**
+- **Reflections on the Revolution In France - Edmund Burke (DONE)**
+- **Economic and Philosophic Manuscripts of 1844 - Karl Marx (DONE)**
 - **Why Not Socialism - G.A. Cohen (DONE)**
+- **Karl Marx's Theory of History: A Defence - G.A Cohen**
 - **Justice as Fairness: A Restatement - John Rawls**
 - **The Racial Contract - Charles W. Mills**
 - **If You're an Egalitarian, How Come You're So Rich - G.A Cohen**
@@ -17,7 +25,7 @@ These are the books on my radar that I want to get through at some point within 
 - **Equality Renewed: Justice, Flourishing, and the Egalitarian Ideal - Christine Sypowich**
 - Contemporary Political Philosophy: An Introduction - Will Kymlicka
 - Lectures on the History of Political Philosophy - John Rawls
-- Multicultural Citizenship: A Liberal Theory of Minority Rights - Will Kymlicka 
+- Multicultural Citizenship: A Liberal Theory of Minority Rights - Will Kymlicka
 
 ## Moral Philosophy
 - **Contractualism and Utilitarianism - T.M Scanlon**
