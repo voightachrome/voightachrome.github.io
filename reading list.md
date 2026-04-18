@@ -1,6 +1,9 @@
 # Reading List: 2026 and Beyond!
 These are the books on my radar that I want to get through at some point within the next 2 years! 
-- PS: If the text is **BOLD**, It is a book I wish to read (to some extent or another) within 2026. 
+- PS: If the text is **BOLD**, It is a book I wish to read within 2026.
+- A lot of these books are Philosophy, and so this is not a list of books i will read for cover to cover, as that is either impractical or unnecessary to why I have chosen to read it. However, if they are marked as finished, I have read a substantive amount of it*.
+- PS: if there are specific parts of the book that are listed, or it is a work of fiction, if i list it as done, i have read all of it.*
+   
 
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/a5098df0-ecde-4d08-9e79-1b01a106fa67" />
