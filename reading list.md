@@ -20,7 +20,7 @@ These are the books on my radar that I want to get through at some point within 
 - **Contractualism and Utilitarianism - T.M Scanlon**
 - What We Owe To Each Other - T.M Scanlon
 - **Should the Numbers Count? - John Taurak**
-- 
+  
 ## African Philosophy 
 - Philosophy and an African Culture - Kwasi Wiredu
 - African Philosophy: Myth and Reality - Paulin J. Houndondji
