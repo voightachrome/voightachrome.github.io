@@ -8,15 +8,23 @@ These are the books on my radar that I want to get through at some point within 
 ## Political Philosophy
 - **Why Not Socialism - G.A. Cohen (DONE)**
 - **Justice as Fairness: A Restatement - John Rawls**
+- **The Racial Contract - Charles W. Mills**
 - **If You're an Egalitarian, How Come You're So Rich - G.A Cohen**
 - **The Concept of Socialist Law - Christine Sypnowich**
+- **Equality Renewed: Justice, Flourishing, and the Egalitarian Ideal - Christine Sypowich**
+- Contemporary Political Philosophy: An Introduction - Will Kymlicka
+- Lectures on the History of Political Philosophy - John Rawls
+- Multicultural Citizenship: A Liberal Theory of Minority Rights - Will Kymlicka 
 
 ## Moral Philosophy
-
+- **Contractualism and Utilitarianism - T.M Scanlon**
+- What We Owe To Each Other - T.M Scanlon
+- **Should the Numbers Count? - John Taurak**
+- 
 ## African Philosophy 
-- **Philosophy and an African Culture - Kwasi Wiredu**
-- **African Philosophy: Myth and Reality - Paulin J. Houndondji**
-- **African Religion and Philosophy - John S. Mbiti**
+- Philosophy and an African Culture - Kwasi Wiredu
+- African Philosophy: Myth and Reality - Paulin J. Houndondji
+- African Religion and Philosophy - John S. Mbiti
 - Cultural Universals and Particulars - Kwasi Wiredu
 
 
@@ -32,7 +40,7 @@ These are the books on my radar that I want to get through at some point within 
 
 
 ## Chinese Philosophy
-- **The Philosophy of the Daodejing - Hans Georg Moeller**
+- The Philosophy of the Daodejing - Hans Georg Moeller
 - **Zhuangzi: Basic Writings - Burton Watson**
 - **Zhuangzi and the Becoming of Nothingness - David Chai**
 
@@ -43,9 +51,6 @@ These are the books on my radar that I want to get through at some point within 
 (OR)
                     
 - **The Wretched of the Earth - Frantz Fanon**
-
-
-- Afro-pessimism - Frank B. Wilderson III
 - **Orientalism - Edward W. Said**
 
 
