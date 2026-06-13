@@ -64,14 +64,16 @@
     
     @media (max-width: 800px) {
       html, body {
-        overflow: auto;
+        height: auto !important;
+        overflow: auto !important;
       }
       .container {
         flex-direction: column !important;
-        align-items: center;
+        justify-content: flex-start !important;
+        align-items: center !important;
         gap: 30px;
-        height: auto;
-        padding: 40px 20px 100px 20px;
+        height: auto !important;
+        padding: 40px 20px 120px 20px !important;
       }
       .content {
         max-height: none !important;
@@ -171,6 +173,7 @@
       })
       .then(text => {
         document.getElementById('markdown-content').innerHTML = marked.parse(text);
+        window.scrollTo(0, 0);
       })
       .catch(error => {
         console.error('Error loading markdown file:', error);
