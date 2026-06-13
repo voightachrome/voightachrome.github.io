@@ -54,10 +54,11 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 20px;
+      gap: 30px;
       text-align: center;
-      max-width: 90%;
-      padding: 5px;
+      width: 100%;
+      max-width: 900px;
+      padding: 20px;
       max-height: 100%;
       overflow-y: auto;
       opacity: 0;
@@ -91,14 +92,15 @@
   
     .content {
       text-align: left; 
-      max-width: 600px;
+      width: 100%;
+      max-width: 800px;
     }
 
     /* Styling parsed markdown elements */
     .content p, .content li {
-      margin: 5px 0;
+      margin: 10px 0;
       font-size: 1.1em;
-      line-height: 1.5;
+      line-height: 1.6;
     }
 
     .content h3 {
@@ -131,7 +133,7 @@
 </head>
 <body>
   <div class="container">
-    <img src="./index_Files/Websitephoto4.jpg" alt="Portrait of Samuel Osei">
+    <img src="./index_Files/Websitephoto6.jpg" alt="Me and My Family">
     
     <div class="content" id="markdown-content"></div>
     
@@ -142,7 +144,6 @@
   </footer>
 
   <script>
-
     const githubRawUrl = 'https://raw.githubusercontent.com/voightachrome/voightachrome.github.io/main/about.md';
 
     fetch(githubRawUrl)
@@ -157,7 +158,7 @@
       })
       .catch(error => {
         console.error('Error loading markdown file:', error);
-        document.getElementById('markdown-content').innerHTML = '<p>Error loading profile content. Please try again later.</p>';
+        document.getElementById('markdown-content').innerHTML = '<p>Error</p>';
       });
   </script>
 </body>
