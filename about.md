@@ -4,7 +4,7 @@ Hi! My name is Samuel, I study undergraduate-level philosophy @ York University.
 Three questions arise whenever I tell a person that I study philosophy: 
 
 
-**1) What are my interests within philosophy? **
+**1) What are my interests within philosophy?**
 
 
 I can answer this question in academic and non-academic terms. I’ll do both. (Side note: I have interests in a lot more than this, i am only in undergrad after all, but this is just what I care about the most right now)
