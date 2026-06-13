@@ -25,10 +25,11 @@
     }
 
     html, body {
-      min-height: 100%;
+      height: 100%;
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      overflow: hidden;
     }
 
     body {
@@ -39,8 +40,6 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      overflow-y: scroll;
-      padding-bottom: 80px;
     }
 
     .container {
@@ -51,7 +50,9 @@
       gap: 40px;
       width: 100%;
       max-width: 1200px;
-      padding: 60px 20px;
+      height: 100vh;
+      padding: 40px 20px 80px 20px;
+      box-sizing: border-box;
       opacity: 0;
       animation: fadeIn 1s ease-out forwards;
     }
@@ -62,16 +63,23 @@
     }
     
     @media (max-width: 800px) {
+      html, body {
+        overflow: auto;
+      }
       .container {
         flex-direction: column !important;
         align-items: center;
         gap: 30px;
-        padding: 40px 20px;
+        height: auto;
+        padding: 40px 20px 100px 20px;
       }
-      
+      .content {
+        max-height: none !important;
+        overflow-y: visible !important;
+        padding-right: 0 !important;
+      }
       img {
         max-width: 100% !important;
-        position: static !important;
       }
     }
    
@@ -81,14 +89,22 @@
       height: auto;
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-      position: sticky;
-      top: 40px;
+      flex-shrink: 0;
     }
   
     .content {
       text-align: left; 
       width: 100%;
       max-width: 650px;
+      max-height: 100%;
+      overflow-y: auto;
+      padding-right: 15px;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .content::-webkit-scrollbar {
+      display: none;
     }
 
     /* Styling parsed markdown elements */
