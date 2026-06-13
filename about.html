@@ -3,16 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta property="og:title" content="samuel osei — a personal website - about me" />
-    <meta property="og:description" content="nsateaa nyinaa nnyɛ pɛ" />
-    <meta property="og:image" content="https://github.com/user-attachments/assets/e6ab75cd-a366-4cbe-82bb-8c5a3e8e20c5" />
-    <meta property="og:url" content="https://voightachrome.com" />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:title" content="samuel osei — a personal website - about me" />
+  <meta property="og:description" content="nsateaa nyinaa nnyɛ pɛ" />
+  <meta property="og:image" content="https://github.com/user-attachments/assets/e6ab75cd-a366-4cbe-82bb-8c5a3e8e20c5" />
+  <meta property="og:url" content="https://voightachrome.com" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image">
   <title>About Me</title> 
   <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/voightachrome/voightachrome.github.io/refs/heads/main/Nichijou%20Logo%20(1).ico">
+  
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
   <style>
- 
     @font-face {
       font-family: 'Constantia';
       src: url('fonts/constantia.woff2') format('woff2'),
@@ -40,7 +42,6 @@
       align-items: center;
       overflow: auto;
       padding-bottom: 60px;
-
       -ms-overflow-style: none;  
       scrollbar-width: none;     
     }
@@ -61,7 +62,6 @@
       overflow-y: auto;
       opacity: 0;
       animation: fadeIn 1s ease-out forwards;
-
       -ms-overflow-style: none;
       scrollbar-width: none;
     }
@@ -69,20 +69,17 @@
     .container::-webkit-scrollbar {
       display: none;
     }
-
   
     @keyframes fadeIn {
       0% { opacity: 0; }
       100% { opacity: 1; }
     }
-
     
     @media (min-width: 1024px) {
       .container {
         flex-direction: column !important;
       }
     }
-
    
     img {
       width: 100%;
@@ -91,17 +88,22 @@
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
-
   
     .content {
-      text-align: center;
+      text-align: left; 
+      max-width: 600px;
     }
 
-    .content p {
-      margin: 50px 0;
+    /* Styling parsed markdown elements */
+    .content p, .content li {
+      margin: 25px 0;
       font-size: 1.1em;
       line-height: 1.5;
-      max-width: 600px;
+    }
+
+    .content h3 {
+      margin-top: 40px;
+      font-size: 1.4em;
     }
 
     /* Footer */
@@ -130,31 +132,33 @@
 <body>
   <div class="container">
     <img src="./index_Files/Websitephoto4.jpg" alt="Portrait of Samuel Osei">
-    <div class="content">
-      <p>Hi! My name is Samuel, I study undergraduate-level philosophy @ York University. 
-
-Three questions arise whenever I tell a person that I study philosophy: 
-
-What are my interests within philosophy? I can answer this question in academic and non-academic terms. I’ll do both. (Side note: I have interests in a lot more than this, i am only in undergrad after all, but this is just what I care about the most right now)
-
-- Social and Political Philosophy. 
-I am interested in Justice and Egalitarianism (How can we make things more equal for everyone?). I also have an interest in the drivers of social and political change, as well as in political motivation. A question that has interested me for a long time is how people, especially those who are dispossessed and marginalized, can, and have come to be, motivated to strive for political and social change in the face of calamity? How can they hold onto hope in the face of the hopeless? I am specifically interested in this question within the context of 20th-century African and Africana political movements, especially the civil rights movement and Martin Luther King Jr. (but also in general). 
-
-- Moral Philosophy
-I am interested in normative ethics (what we should and should not do toward others). Within this field, I am interested in non-consequentialist moral theories. Consequentialism is a collection of ethical theories that hold that we should only do things that produce the best consequences. You may know utilitarianism, which aims to bring the greatest pleasure/happiness to the greatest number of people. I don't like consequentialist theories; I find them missing something in how we think about morality (particularly the "preferences in conclusions out" way of thinking, and the theories of aggregation they often rely on). My interest in non-consequentialist ethics came through watching an interview of T.M. Scanlon discussing his book What we Owe to Each Other. In the interview, he says something along the lines that other moral theories seem to be too worried about other things, like the features of human beings requiring us to act in a certain way (Kant), or the amount of happiness or pleasure that can be gained through an action (Utilitarianism), and less about our relations to other people for the sake of other people. In the book, Scanlon constructs a moral theory called contractualism. Contractualism seeks to understand our moral obligations to others by appealing to principles that others cannot reasonably reject. This seems to be more in line with how we should think about morality, and I wish to explore that in more depth in the coming months. 
-
-        
-
-Minor Interests: I also have interests in African philosophy. I am currently working through the 20th-century metaphilosophical (referring to the practice of asking what philosophy is) debate over what African philosophy is (starting with Kwesi Wiredu's Philosophy and an African Culture). I am also interested in how technologies shape our politics, our social lives, and ourselves. Lastly, I am also interested in Social Epistemology. Which is the study of how we know things through each other. As well as how others can hinder or support our mission to acquire knowledge about ourselves and the world.
-
-### Why did I choose to major in philosophy?
-Philosophy is really interesting, it gives me the tools to understand the world and my experiences, and it gives me the space to think about a vast number of questions that have been bugging me since I was a child. I also do think that philosophy has the power to change the world, and as i mentioned previously, to motivate others to transform themselves within their situations. Socrates within the Apology acts as a "gadfly" to stir the athenians to reason and question their dogmas and presuppositions. I think that even today, philosophy is still needed to fufill the same purpose.
-
-### What am i going to do with a philosophy degree?
-This i dont know, I guess the path of least resistance is to go to graduate school, or become a lawyer. I am pretty set on doing a masters after undergrad. But after that im not sure! Keeping options open!
+    
+    <div class="content" id="markdown-content"></div>
+    
   </div>
+  
   <footer>
     <a href="index.html">Home</a>
   </footer>
+
+  <script>
+
+    const githubRawUrl = 'https://raw.githubusercontent.com/voightachrome/voightachrome.github.io/main/about.md';
+
+    fetch(githubRawUrl)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response failed');
+        }
+        return response.text();
+      })
+      .then(text => {
+        document.getElementById('markdown-content').innerHTML = marked.parse(text);
+      })
+      .catch(error => {
+        console.error('Error loading markdown file:', error);
+        document.getElementById('markdown-content').innerHTML = '<p>Error loading profile content. Please try again later.</p>';
+      });
+  </script>
 </body>
 </html>
