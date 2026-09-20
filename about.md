@@ -12,7 +12,7 @@ I can answer this question in academic and non-academic terms. I’ll do both. (
 **Social and Political Philosophy:** 
 
 
-- I am interested in justice and egalitarianism (How can we make things more equal for everyone?). I also have an interest in the drivers of social and political change, as well as in political motivation. A question that has interested me for a long time is how people, especially those who are dispossessed and marginalized, can, and have come to be, motivated to strive for political and social change in the face of calamity? How can they hold onto hope in the face of the hopeless? I am specifically interested in this question within the context of 20th-century African and Africana political movements, especially the civil rights movement and Martin Luther King Jr. (but also in general). 
+- I am interested in justice and egalitarianism (How can we make things more equal for everyone?). I also have an interest in the drivers of social and political change, as well as in political motivation. A question that has interested me for a long time is how people, especially those who are dispossessed and marginalized, can, and have come to be, motivated to strive for political and social change in the face of calamity? How can they hold onto hope in the face of the hopeless? I am specifically interested in this question within the context of 20th-century African and Africana political movements, especially the civil rights movement and Martin Luther King Jr. (but also more broadly to all similar movements). 
 
 
 **Moral Philosophy:** 
@@ -23,8 +23,7 @@ I can answer this question in academic and non-academic terms. I’ll do both. (
 **Minor Interests:** 
 
 
-- I also have interests in African philosophy. I am currently working through the 20th-century metaphilosophical (referring to the practice of asking what philosophy is) debate over what African philosophy is (starting with [Kwesi Wiredu's *Philosophy and an African Culture*](https://philpapers.org/rec/WIRPAA)). I am also interested in how technologies shape our politics, our social lives, and ourselves. I am also interested in Social Epistemology. Which is the study of how we know things through each other. As well as how others can hinder or support our mission to acquire knowledge about ourselves and the world. Lastly, I have a developing interest in Philosophy of Law, which i hope to learn more about within the coming months
-
+- I also have interests in African philosophy. I am currently working through the 20th-century metaphilosophical (referring to the practice of asking what philosophy is) debate over what African philosophy is (starting with [Kwesi Wiredu's *Philosophy and an African Culture*](https://philpapers.org/rec/WIRPAA)). I am also interested in how technologies shape our politics, our social lives, and ourselves. I am also interested in Social Epistemology. Which is the study of how we know things through each other. As well as Virtue Epistemology, which seeks to make a key link between the way we apply our intellectual virtues, and how we acquire knowledge. In other words, we would know something only through an expression of our intellectual virtues, on top of our belief and the truth of the thing in question. 
 
 **2) Why did I choose to major in philosophy?**
 
@@ -35,7 +34,7 @@ I can answer this question in academic and non-academic terms. I’ll do both. (
 **3) What am i going to do with a philosophy degree?**
 
 
-- This i dont know, I guess the path of least resistance is to go to graduate school, or become a lawyer. I am pretty deadset on doing a masters after undergrad. But after that im not sure! Keeping options open!
+- This i dont know, I guess the path of least resistance is to go to graduate school, or become a lawyer. I am pretty set on doing a masters after my undergraduate degree is complete. But after that I am not sure! Keeping options open!
 
 
 
